@@ -1,0 +1,30 @@
+\documentclass[a4paper,12pt]{report}
+
+\input{estructura} % <<--- importa toda la configuración de estilo y portada
+
+\begin{document}
+
+    \maketitle
+    \tableofcontents
+
+    \part{PROYECTO}
+    \include{proyecto/metodo}
+    \include{proyecto/lenguaje}
+
+    \part{ARQUITECTURA EMPRESARIAL}
+    \include{arquitectura/motivacional}
+    \include{arquitectura/estarategica}
+    \include{arquitectura/negocio}
+    \include{arquitectura/aplicacion}
+    \include{arquitectura/infraestructura}
+    \include{arquitectura/migracion}
+
+    \part{PATRONES}
+    \include{patrones/creacionales}
+    \include{patrones/estructurales}
+    \include{patrones/comportamiento}
+
+    \part{REFLEXIONES}
+    \printbibliography
+
+\end{document}

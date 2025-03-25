@@ -1,0 +1,43 @@
+% estructura.tex
+
+% ---------------------
+% Paquetes y estilos
+% ---------------------
+\usepackage[spanish]{babel}
+\usepackage[noheader]{packages/sleek}
+\usepackage{packages/sleek-title}
+\usepackage{packages/sleek-theorems}
+\usepackage{packages/sleek-listings}
+\usepackage{csquotes}
+\usepackage[]{biblatex}
+%\addbibresource{referencias/libros.bib}
+\addbibresource{referencias/articulos.bib}
+\usepackage{calc}
+\usepackage{makeidx}
+\makeindex
+
+% ---------------------
+% Configuración listings
+% ---------------------
+\lstdefinestyle{latex}{
+    language=TeX,
+    style=default,
+    commentstyle=\ForestGreen,
+    keywordstyle=\TrueBlue,
+    stringstyle=\VeronicaPurple,
+    emphstyle=\TrueBlue,
+    emph={LaTeX, usepackage, textit, textbf, textsc}
+}
+\FrameTBStyle{latex}
+\def\tbs{\textbackslash}
+
+% ---------------------
+% Portada
+% ---------------------
+\logo{./imgs/logo_ud.pdf}
+\institute{Universidad Distrital}
+\faculty{Facultad de Ingeniería}
+\title{Arquitectura empresarial}
+\subtitle{Innovate Wear}
+\author{\textit{Autores}\\Luis Alexander Barajas Garcia 20202020129 \\ Juan Sebastian Leon Garnica 20202020124 \\ Erick Leonardo Turriago Vargas 20202020140}
+\date{\today}
