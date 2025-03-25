@@ -1,0 +1,780 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.17)  19 MAR 2025 15:27
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**./arq.tex
+(arq.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/base\bk11.clo
+File: bk11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(paquetes.tex
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count196
+\U@D=\dimen141
+\l@unhyphenated=\language79
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.
+def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count197
+
+*************************************
+* Local config file bblopts.cfg used
+*
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spa
+nish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks17
+\es@quotdepth=\count198
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es
+\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx
+.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.s
+ty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics
+.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\grap
+hics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdft
+ex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+))
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2025/03/06 v3.6.0 Yet another Pygments shim for LaTeX
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catch
+file.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwa
+rerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds
+.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcm
+ds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)))
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox
+.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count199
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.s
+ty
+Package: fvextra 2025/03/04 v1.12.0 fvextra - extensions and patches for fancyv
+rb
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb
+.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count266
+\FV@InFile=\read3
+\FV@TabBox=\box51
+\c@FancyVerbLine=\count267
+\FV@StepNumber=\count268
+\FV@OutFile=\write3
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdft
+excmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.s
+ty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2025/01/29 line numbers on paragraphs v5.4
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptio
+ns.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetke
+ys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count269
+\output=\toks19
+\linenoprevgraf=\count270
+\linenumbersep=\dimen144
+\linenumberwidth=\dimen145
+\c@linenumber=\count271
+\c@pagewiselinenumber=\count272
+\c@LN@truepage=\count273
+\c@internallinenumber=\count274
+\c@internallinenumbers=\count275
+\quotelinenumbersep=\dimen146
+\bframerule=\dimen147
+\bframesep=\dimen148
+\bframebox=\box52
+LaTeX Info: Redefining \\ on input line 3187.
+)
+\c@FancyVerbWriteLine=\count276
+\c@FancyVerbBufferLine=\count277
+\c@FV@TrueTabGroupLevel=\count278
+\c@FV@TrueTabCounter=\count279
+\FV@TabBox@Group=\box53
+\FV@bgcolorstructbox=\box54
+\FV@TmpLength=\skip50
+\c@FV@HighlightLinesStart=\count280
+\c@FV@HighlightLinesStop=\count281
+\FV@LoopCount=\count282
+\FV@NCharsBox=\box55
+\FV@BreakIndent=\dimen149
+\FV@BreakIndentNChars=\count283
+\FV@BreakSymbolSepLeft=\dimen150
+\FV@BreakSymbolSepLeftNChars=\count284
+\FV@BreakSymbolSepRight=\dimen151
+\FV@BreakSymbolSepRightNChars=\count285
+\FV@BreakSymbolIndentLeft=\dimen152
+\FV@BreakSymbolIndentLeftNChars=\count286
+\FV@BreakSymbolIndentRight=\dimen153
+\FV@BreakSymbolIndentRightNChars=\count287
+\c@FancyVerbLineBreakLast=\count288
+\FV@LineBox=\box56
+\FV@LineIndentBox=\box57
+\c@FV@BreakBufferDepth=\count289
+\FV@LineWidth=\dimen154
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/latex2pydata\late
+x2pydata.sty
+Package: latex2pydata 2025/03/03 v0.5.0 latex2pydata - write data to file in Py
+thon literal format
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgf
+keys.sty
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\p
+gfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\p
+gfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+)))
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.s
+ty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks23
+\pgfopts@list@add@b@toks=\toks24
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.st
+y
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count290
+\float@exts=\toks25
+\float@box=\box58
+\@float@everytoks=\toks26
+\@floatcapt=\box59
+)
+\c@minted@FancyVerbLineTemp=\count291
+\@float@every@listing=\toks27
+\c@listing=\count292
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\colo
+r.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolo
+r.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backe
+nd-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box60
+) (arq.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ (proyecto/metodo.aux) (proyecto/lenguaje.aux)
+(arquitectura/motivacional.aux
+
+LaTeX Warning: Label `fig:stakeholders' multiply defined.
+
+) (arquitectura/estarategica.aux
+
+LaTeX Warning: Label `fig:stakeholders' multiply defined.
+
+
+LaTeX Warning: Label `fig:stakeholders' multiply defined.
+
+) (arquitectura/negocio.aux
+
+LaTeX Warning: Label `fig:stakeholders' multiply defined.
+
+
+LaTeX Warning: Label `fig:stakeholders' multiply defined.
+
+) (arquitectura/aplicacion.aux
+
+LaTeX Warning: Label `fig:stakeholders' multiply defined.
+
+
+LaTeX Warning: Label `fig:stakeholders' multiply defined.
+
+) (arquitectura/infraestructura.aux
+
+LaTeX Warning: Label `fig:stakeholders' multiply defined.
+
+
+LaTeX Warning: Label `fig:stakeholders' multiply defined.
+
+) (arquitectura/migracion.aux
+
+LaTeX Warning: Label `fig:stakeholders' multiply defined.
+
+
+LaTeX Warning: Label `fig:stakeholders' multiply defined.
+
+) (patrones/creacionales.aux) (patrones/estructurales.aux)
+(patrones/comportamiento.aux))
+\openout1 = `arq.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-
+pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count294
+\scratchdimen=\dimen155
+\scratchbox=\box61
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen156
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks29
+)
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epst
+opdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\estudiantes\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf
+-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+ [1
+
+
+{C:/Users/estudiantes/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+
+] (arq.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 4.
+ [3]
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
+ [4])
+\tf@toc=\write4
+\openout4 = `arq.toc'.
+
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ [5]
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ [6
+
+] [7] [8]
+\openout2 = `proyecto/metodo.aux'.
+
+ (proyecto/metodo.tex
+Cap\'{\i }tulo 1.
+[9
+
+
+]
+<arquitectura/imgs/ADM.jpg, id=36, 555.07375pt x 490.83376pt>
+File: arquitectura/imgs/ADM.jpg Graphic file (type jpg)
+<use arquitectura/imgs/ADM.jpg>
+Package pdftex.def Info: arquitectura/imgs/ADM.jpg  used on input line 6.
+(pdftex.def)             Requested size: 251.9989pt x 222.83539pt.
+)
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ [10 <./arquitectura/imgs/ADM.jpg>]
+\openout2 = `proyecto/lenguaje.aux'.
+
+ (proyecto/lenguaje.tex
+Cap\'{\i }tulo 2.
+[11
+
+
+
+
+])
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+ [12
+
+
+
+] [13] [14]
+\openout2 = `arquitectura/motivacional.aux'.
+
+ (arquitectura/motivacional.tex
+Cap\'{\i }tulo 3.
+[15
+
+
+]
+<arquitectura/imgs/stakeholders.pdf, id=56, 268.00125pt x 164.615pt>
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 8.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+ [16 <./arquitectura/imgs/stakeholders.pdf>]
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 17.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ [17])
+\openout2 = `arquitectura/estarategica.aux'.
+
+
+(arquitectura/estarategica.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [18
+
+
+
+
+]
+Cap\'{\i }tulo 4.
+[19]
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 8.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+ [20]
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 17.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ [21])
+\openout2 = `arquitectura/negocio.aux'.
+
+ (arquitectura/negocio.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [22
+
+
+
+
+]
+Cap\'{\i }tulo 5.
+[23]
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 8.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+ [24]
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 17.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ [25])
+\openout2 = `arquitectura/aplicacion.aux'.
+
+ (arquitectura/aplicacion.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [26
+
+
+
+
+]
+Cap\'{\i }tulo 6.
+[27]
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 8.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+ [28]
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 17.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ [29])
+\openout2 = `arquitectura/infraestructura.aux'.
+
+ (arquitectura/infraestructura.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [30
+
+
+
+
+]
+Cap\'{\i }tulo 7.
+[31]
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 8.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+ [32]
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 17.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ [33])
+\openout2 = `arquitectura/migracion.aux'.
+
+ (arquitectura/migracion.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [34
+
+
+
+
+]
+Cap\'{\i }tulo 8.
+[35]
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 8.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+ [36]
+File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
+<use arquitectura/imgs/stakeholders.pdf>
+Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
+ 17.
+(pdftex.def)             Requested size: 251.9989pt x 154.78584pt.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ [37])
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+ [38
+
+
+
+] [39] [40]
+\openout2 = `patrones/creacionales.aux'.
+
+ (patrones/creacionales.tex
+Cap\'{\i }tulo 9.
+[41
+
+
+]
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+ [42]
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ [43]
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+ [44]
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \begin{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\pydata@fh@_984205CBC1164164190A64EEE175BF67.data.minted=\write5
+\openout5 = `_984205CBC1164164190A64EEE175BF67.data.minted'.
+
+runsystem(latexminted config  --timestamp 20250319152735 984205CBC1164164190A64
+EEE175BF67)...executed.
+
+
+! Package minted Error: minted v3+ executable is not installed or is not added 
+to PATH; or MiKTeX is being used with -aux-directory or -output-directory witho
+ut setting a TEXMF_OUTPUT_DIRECTORY environment variable.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 	\end{minted}
+                  
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+! Package minted Error: Missing definition for highlighting style "default" (mi
+nted executable is unavailable or disabled); attempting to substitute fallback 
+style.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 	\end{minted}
+                  
+(That was another \errmessage.)
+
+
+! Package minted Error: Cannot highlight code (minted executable is unavailable
+ or disabled); attempting to typeset without highlighting.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 	\end{minted}
+                  
+(That was another \errmessage.)
+
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+[45])
+\openout2 = `patrones/estructurales.aux'.
+
+ (patrones/estructurales.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [46
+
+
+
+
+]
+Cap\'{\i }tulo 10.
+[47]
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+ [48]
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ [49]
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+ [50]
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+ [51])
+\openout2 = `patrones/comportamiento.aux'.
+
+ (patrones/comportamiento.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [52
+
+
+
+
+]
+Cap\'{\i }tulo 11.
+[53]
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+ [54]
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ [55]
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+ [56]
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+ [57])
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
+ [58
+
+
+
+] [59] [60] (arq.bbl) [61
+
+] (arq.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+
+(proyecto/metodo.aux) (proyecto/lenguaje.aux) (arquitectura/motivacional.aux)
+(arquitectura/estarategica.aux) (arquitectura/negocio.aux)
+(arquitectura/aplicacion.aux) (arquitectura/infraestructura.aux)
+(arquitectura/migracion.aux) (patrones/creacionales.aux)
+(patrones/estructurales.aux) (patrones/comportamiento.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 12 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 8767 strings out of 474485
+ 202966 string characters out of 5740902
+ 1936542 words of memory out of 5000000
+ 30882 multiletter control sequences out of 15000+600000
+ 565319 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 89i,7n,96p,478b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/estudiantes/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb><C:/Users/estudiantes/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/estudiantes/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/estudiant
+es/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
+sers/estudiantes/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr17.pfb><C:/Users/estudiantes/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsl10.pfb><C:/Users/estudiantes/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/estudiantes/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on arq.pdf (61 pages, 230540 bytes).
+PDF statistics:
+ 242 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
