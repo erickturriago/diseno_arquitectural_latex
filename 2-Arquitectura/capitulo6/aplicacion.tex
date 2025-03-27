@@ -1,25 +1,54 @@
 \graphicspath{{./2-Arquitectura/capitulo6/}}
 
+\Capitulo{Aplicación}{
+	
+El punto de vista de aplicación sirve para modelar el sistema de información de la
+empresa, y sirve para definir como interactúan estas aplicaciones para apoyar al negocio.
+Para lograr lo anterior se sugiere la representación de los siguientes puntos de vista \cite{definicion_capas}:
+\begin{itemize}
+    \item Punto de Vista Comportamiento de la Aplicación
+    \item Punto de Vista de Cooperación de Aplicación
+    \item Punto de Vista de Estructura de aplicación
+    \item Punto de Vista de Uso de Aplicación
+\end{itemize}
+}
 
-\chapter{Software}
-\section{Introducción}
-\newpage
-\section{Stakeholder}
-\subsection{Modelo}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.7\linewidth]{imgs/stakeholders}
-	\caption{stakeholders}
-	\label{fig:stakeholders}
-\end{figure}
-%descrepcion
-\newpage
-\subsection{caso}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.7\linewidth]{imgs/stakeholders}
-	\caption{stakeholders}
-	\label{fig:stakeholders}
-\end{figure}
-%descrepcion
-\newpage
+%--------------Comportamiento de la Aplicación-----------------------
+\PuntoDeVistaResponsive{Comportamiento de la Aplicación}{imgs/Modelo 1.pdf}
+{
+    Este punto de vista describe el comportamiento interno de una aplicación; por ejemplo, cuando realiza uno o más servicios de aplicación. Este punto de vista permite diseñar el comportamiento principal de las aplicaciones o para identificar la superposición funcional entre diferentes aplicaciones. Un componente de aplicación representa una encapsulación de la funcionalidad de la aplicación alineada con la estructura de implementación, que es modular y reemplazable. \cite{definicion_puntos_de_vista}
+}
+{imgs/Caso 1.pdf}
+{
+    Este caso representa el comportamiento de la aplicación relacionado con la personalización y diseño de camisetas. Los artistas publican sus estampados en la plataforma, los clientes seleccionan diseños y personalizan sus camisetas, y finalmente realizan la compra. Componenentes esenciales a la hora de realizar un e-commerce.
+ }{1}{1}
+
+%--------------Cooperación de Aplicación-----------------------
+\PuntoDeVista{Cooperación de Aplicación}{imgs/Modelo 2.pdf}{
+    Para este punto se tienen en cuenta las relaciones entre los componentes de las aplicaciones en términos de los flujos de información entre ellos, o en términos de los servicios que ofrecen y utilizan. Normalmente, este punto de vista es usado para crear una descripción general del panorama de aplicaciones de una organización. Este punto de vista también se utiliza para expresar la cooperación (interna) u orquestación de servicios que en conjunto apoyan la ejecución de un proceso empresarial. \cite{definicion_puntos_de_vista}
+}{imgs/Caso 2.pdf}{
+    Este caso ilustra cómo los componentes de la aplicación \textbf{colaboran} en las áreas de interacción con los usuarios \textbf{(Front Office)} y procesos internos \textbf{(Back Office)}. Esto con el fin de mostrar que cada componente tiene un papel específico en la cooperación global de la aplicación.
+    
+}{1}{0.8}
+
+%--------------Estructura de aplicación-----------------------
+\PuntoDeVista{Estructura de aplicación}{imgs/Modelo 3.pdf}{
+   El punto de vista de estructura de aplicación muestra la estructura de una o más aplicaciones o componentes. Es útil para diseñar o entender la estructura de las aplicaciones o componentes y la información asociada. \cite{definicion_capas}
+}{imgs/Caso 3.pdf}{
+    Este caso muestra por medio de qué interfaces la página web podrá interactuar con cada componente de la aplicación. Básicamente, se muestra la dinámica de la aplicación entera en este caso.
+}{1}{1.1}
+
+
+
+
+%----------------------Uso de Aplicación----------------------
+\PuntoDeVista{Uso de Aplicación}{imgs/Modelo 4.pdf}
+{
+  El punto de vista del uso de la aplicación describe cómo se usan las aplicaciones para admitir uno o más procesos de negocios, y cómo son utilizadas por otras aplicaciones. Se puede usar para diseñar una aplicación identificando los servicios que necesitan los procesos de negocios y otras aplicaciones, o para diseñar procesos de negocio describiendo los servicios disponibles. Además, puede ser útil para los gerentes operativos responsables de estos procesos. \cite{definicion_capas}
+
+}
+{imgs/Caso 4.pdf}
+{
+   Este caso representa un proceso de venta simple. En el centro está la transacción de venta. A la izquierda, las etapas de ``Descuentos'' y ``Promoción'' afectan el precio. A la derecha, las etapas de ``Pago con Tarjeta'' y ``Pagos'' representan las opciones de pago disponibles. \textbf{Este diagrama muestra cómo las aplicaciones y los procesos interactúan en el contexto de la venta. }
+    
+}{1}{0.7}

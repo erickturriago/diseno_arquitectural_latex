@@ -1,24 +1,33 @@
 \graphicspath{{./2-Arquitectura/capitulo8/}}
 
-\chapter{Migración Arquitectónica}
-\section{Introducción}
-\newpage
-\section{Stakeholder}
-\subsection{Modelo}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.7\linewidth]{imgs/stakeholders}
-	\caption{stakeholders}
-	\label{fig:stakeholders}
-\end{figure}
-%descrepcion
-\newpage
-\subsection{caso}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=0.7\linewidth]{imgs/stakeholders}
-	\caption{stakeholders}
-	\label{fig:stakeholders}
-\end{figure}
-%descrepcion
-\newpage
+\Capitulo{Migración e implementación}{
+El punto de vista del proyecto es usado principalmente para modelar la gestión del cambio en la arquitectura, la arquitectura del proceso de migración desde una situación anterior (estado actual de la arquitectura empresarial) a una situación deseada (estado objetivo de la arquitectura empresarial) tiene consecuencias significativas en el corto y largo plazo para el crecimiento de la estrategia y las decisiones subsecuentes del proceso de realización.
+\cite{archimate}
+}
+
+%--------------Punto de Vista de Proyecto-----------------------
+\PuntoDeVista{Punto de Vista de Proyecto}{imgs/Modelo 1.pdf}{
+   Este punto de vista se usa prácticamente para modelar la administración del cambio arquitectónico. El proceso de migración de una arquitectura a otra debe de tener en cuenta que estos procesos toman tiempo, incluso años, ya que todos los sistemas deben permanecer operativos y también es importante tener en cuenta los estándares tecnológicos y la adaptación al cambio del personal: Y tocar también los aspectos legales y financieros que infieren en el proyecto.\cite{definicion_capas}
+
+}{imgs/Caso 1.pdf}
+{
+    Este caso demuestra como las estrategias de negocio enunciadas en las capas anteriores al unirse con el futuro portal web (EstampaTuIdea.com) lograran el objetivo principal de nuestro proyecto. 
+}{1}{1}
+
+%--------------Punto de Vista de Migracion-----------------------
+\PuntoDeVista{Punto de Vista de Migración}{imgs/Modelo 2.pdf}{
+    El punto de vista de migración implica modelos y conceptos que pueden ser usados para especificar la transición de una arquitectura existente a una arquitectura deseada. La meseta es un estado relativo de la arquitectura que existe en un tiempo limitado, una brecha es una unidad de análisis de transición entre dos mesetas. \cite{definicion_capas}
+
+}{imgs/Caso 2.pdf}{
+    Este caso se centra mostrar una estructura más general y primitiva de lo que será nuestro futuro portal web (EstampaTuIdea.com) y que se debe tener en cuenta para su construcción.
+}{0.6}{0.8}
+
+%--------------Punto de Vista de Implementaci´on/Migración-----------------------
+\PuntoDeVista{Punto de Vista de Implementación/Migración}{imgs/Modelo 3.pdf}{
+    El punto de vista de migración e implementación es utilizado para relacionar programas y proyectos a las partes de la arquitectura que ellas implementan. Este punto de vista puede ser utilizado en combinación con los puntos de vista de programas y proyectos para soportar la administración del portafolio. El punto de vista de implementación y migración se sitúa para relacionar objetivos de negocio (y requerimientos) por medio de los programas y proyectos de la arquitectura.\cite{definicion_capas}
+}
+{imgs/Caso 3.pdf}
+{
+    Este caso generaliza los 2 casos anteriormente enunciados en donde en el caso actual se da a ver qué papel jugaría la estructuración realizada en el punto de vista de migración para el cumplimiento de nuestro objetivo principal.
+}{1.2}{1.1}
+

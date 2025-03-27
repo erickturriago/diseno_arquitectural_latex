@@ -409,10 +409,98 @@ INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\base\makeidx.sty
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\base\makeidx.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\svg\svg.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\svg\svg.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrlogo.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrlogo.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\transparent\transparent.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\transparent\transparent.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\transparent\transparent-nometadata.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\transparent\transparent-nometadata.sty
 OUTPUT main.idx
+INPUT .\programacion\paquetes.tex
+INPUT .\programacion\paquetes.tex
+INPUT .\programacion\paquetes.tex
+INPUT .\programacion\paquetes.tex
+INPUT programacion\paquetes.tex
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT .\programacion\macros.tex
+INPUT .\programacion\macros.tex
+INPUT .\programacion\macros.tex
+INPUT .\programacion\macros.tex
+INPUT programacion\macros.tex
 INPUT .\main.aux
 INPUT .\main.aux
 INPUT main.aux
+INPUT .\1-Proyecto\capitulo1\metodo.aux
+INPUT .\1-Proyecto\capitulo1\metodo.aux
+INPUT 1-Proyecto\capitulo1\metodo.aux
+INPUT .\1-Proyecto\capitulo2\lenguaje.aux
+INPUT .\1-Proyecto\capitulo2\lenguaje.aux
+INPUT 1-Proyecto\capitulo2\lenguaje.aux
+INPUT .\2-Arquitectura\capitulo3\motivacional.aux
+INPUT .\2-Arquitectura\capitulo3\motivacional.aux
+INPUT 2-Arquitectura\capitulo3\motivacional.aux
+INPUT .\2-Arquitectura\capitulo4\estarategica.aux
+INPUT .\2-Arquitectura\capitulo4\estarategica.aux
+INPUT 2-Arquitectura\capitulo4\estarategica.aux
+INPUT .\2-Arquitectura\capitulo5\negocio.aux
+INPUT .\2-Arquitectura\capitulo5\negocio.aux
+INPUT 2-Arquitectura\capitulo5\negocio.aux
+INPUT .\2-Arquitectura\capitulo6\aplicacion.aux
+INPUT .\2-Arquitectura\capitulo6\aplicacion.aux
+INPUT 2-Arquitectura\capitulo6\aplicacion.aux
+INPUT .\2-Arquitectura\capitulo7\infraestructura.aux
+INPUT .\2-Arquitectura\capitulo7\infraestructura.aux
+INPUT 2-Arquitectura\capitulo7\infraestructura.aux
+INPUT .\2-Arquitectura\capitulo8\migracion.aux
+INPUT .\2-Arquitectura\capitulo8\migracion.aux
+INPUT 2-Arquitectura\capitulo8\migracion.aux
+INPUT .\3-Patrones\creacionales.aux
+INPUT .\3-Patrones\creacionales.aux
+INPUT 3-Patrones\creacionales.aux
+INPUT .\3-Patrones\estructurales.aux
+INPUT .\3-Patrones\estructurales.aux
+INPUT 3-Patrones\estructurales.aux
+INPUT .\3-Patrones\comportamiento.aux
+INPUT .\3-Patrones\comportamiento.aux
+INPUT 3-Patrones\comportamiento.aux
 OUTPUT main.aux
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -422,11 +510,19 @@ INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-p
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-OUTPUT main.out
+INPUT .\main.out
+INPUT .\main.out
+INPUT main.out
+INPUT main.out
 OUTPUT main.pdf
+INPUT .\main.out
+INPUT .\main.out
+OUTPUT main.out
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
@@ -492,6 +588,10 @@ INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\e
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1440.tfm
 INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm2488.tfm
+INPUT .\main.toc
+INPUT .\main.toc
+INPUT main.toc
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
 OUTPUT main.toc
 INPUT .\1-Proyecto\capitulo1\metodo.tex
 INPUT .\1-Proyecto\capitulo1\metodo.tex
@@ -517,7 +617,66 @@ OUTPUT 2-Arquitectura\capitulo3\motivacional.aux
 INPUT .\2-Arquitectura\capitulo3\motivacional.tex
 INPUT .\2-Arquitectura\capitulo3\motivacional.tex
 INPUT 2-Arquitectura\capitulo3\motivacional.tex
-INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 5.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 5.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 5.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 5.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 5.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 5.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 5.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 5.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 5.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 5.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 6.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 6.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 6.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 6.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Modelo 6.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 6.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 6.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 6.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 6.pdf
+INPUT .\2-Arquitectura\capitulo3\imgs\Caso 6.pdf
 OUTPUT 2-Arquitectura\capitulo4\estarategica.aux
 INPUT .\2-Arquitectura\capitulo5\negocio.tex
 INPUT .\2-Arquitectura\capitulo5\negocio.tex
@@ -525,24 +684,222 @@ OUTPUT 2-Arquitectura\capitulo5\negocio.aux
 INPUT .\2-Arquitectura\capitulo5\negocio.tex
 INPUT .\2-Arquitectura\capitulo5\negocio.tex
 INPUT 2-Arquitectura\capitulo5\negocio.tex
+INPUT .\2-Arquitectura\capitulo5\imgs\OrganizacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\OrganizacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\OrganizacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\OrganizacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\OrganizacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\CooperaciondeActorM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\CooperaciondeActorM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\CooperaciondeActorM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\CooperaciondeActorM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\CooperaciondeActorM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\FunciondeNegocioM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\FunciondeNegocioM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\FunciondeNegocioM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\FunciondeNegocioM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\FunciondeNegocioM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\ProcesodeNegocioyCooperacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\ProcesodeNegocioyCooperacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\ProcesodeNegocioyCooperacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\ProcesodeNegocioyCooperacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\ProcesodeNegocioyCooperacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 4.png
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 4.png
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 4.png
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 4.png
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 4.png
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 4.png
+INPUT .\2-Arquitectura\capitulo5\imgs\ProcesodeNegocioyCooperacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\ProcesodeNegocioyCooperacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\ProcesodeNegocioyCooperacionM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 5.png
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 5.png
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 5.png
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 5.png
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 5.png
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso 5.png
+INPUT .\2-Arquitectura\capitulo5\imgs\ProductoM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\ProductoM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\ProductoM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\ProductoM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\ProductoM.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso6.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso6.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso6.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso6.pdf
+INPUT .\2-Arquitectura\capitulo5\imgs\Caso6.pdf
 INPUT .\2-Arquitectura\capitulo6\aplicacion.tex
 INPUT .\2-Arquitectura\capitulo6\aplicacion.tex
 OUTPUT 2-Arquitectura\capitulo6\aplicacion.aux
 INPUT .\2-Arquitectura\capitulo6\aplicacion.tex
 INPUT .\2-Arquitectura\capitulo6\aplicacion.tex
 INPUT 2-Arquitectura\capitulo6\aplicacion.tex
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo6\imgs\Caso 4.pdf
 INPUT .\2-Arquitectura\capitulo7\infraestructura.tex
 INPUT .\2-Arquitectura\capitulo7\infraestructura.tex
 OUTPUT 2-Arquitectura\capitulo7\infraestructura.aux
 INPUT .\2-Arquitectura\capitulo7\infraestructura.tex
 INPUT .\2-Arquitectura\capitulo7\infraestructura.tex
 INPUT 2-Arquitectura\capitulo7\infraestructura.tex
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 4.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 4.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 5.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 5.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 5.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 5.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 5.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 5.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 5.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 5.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 5.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 5.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 6.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 6.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 6.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 6.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 6.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 6.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 6.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 6.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 6.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 6.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 7.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 7.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 7.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 7.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Modelo 7.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 7.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 7.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 7.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 7.pdf
+INPUT .\2-Arquitectura\capitulo7\imgs\Caso 7.pdf
 INPUT .\2-Arquitectura\capitulo8\migracion.tex
 INPUT .\2-Arquitectura\capitulo8\migracion.tex
 OUTPUT 2-Arquitectura\capitulo8\migracion.aux
 INPUT .\2-Arquitectura\capitulo8\migracion.tex
 INPUT .\2-Arquitectura\capitulo8\migracion.tex
 INPUT 2-Arquitectura\capitulo8\migracion.tex
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 1.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 1.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 2.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 2.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Modelo 3.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 3.pdf
+INPUT .\2-Arquitectura\capitulo8\imgs\Caso 3.pdf
 INPUT .\3-Patrones\creacionales.tex
 INPUT .\3-Patrones\creacionales.tex
 OUTPUT 3-Patrones\creacionales.aux
@@ -561,6 +918,13 @@ OUTPUT 3-Patrones\comportamiento.aux
 INPUT .\3-Patrones\comportamiento.tex
 INPUT .\3-Patrones\comportamiento.tex
 INPUT 3-Patrones\comportamiento.tex
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcti1200.tfm
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\inconsolata\t1zi4.fd
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\inconsolata\t1zi4.fd
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\tex\latex\inconsolata\t1zi4.fd
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\fonts\tfm\public\inconsolata\t1-zi4r-0.tfm
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\inconsolata\i4-t1-0.enc
 INPUT main.aux
 INPUT .\1-Proyecto\capitulo1\metodo.aux
 INPUT .\1-Proyecto\capitulo1\metodo.aux
@@ -597,15 +961,20 @@ INPUT .\3-Patrones\comportamiento.aux
 INPUT 3-Patrones\comportamiento.aux
 INPUT .\main.out
 INPUT .\main.out
+INPUT main.run.xml
 OUTPUT main.run.xml
-INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
-INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
-INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
-INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcti1200.pk
+INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcti1200.pk
+INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
+INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
 INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
 INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
 INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
 INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk
@@ -618,3 +987,5 @@ INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\d
 INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk
 INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc2074.pk
 INPUT C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc2074.pk
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\fonts\type1\public\inconsolata\Inconsolata-zi4r.pfb
+INPUT C:\Users\Erick Turriago\AppData\Local\Programs\MiKTeX\fonts\type1\public\inconsolata\Inconsolata-zi4r.pfb

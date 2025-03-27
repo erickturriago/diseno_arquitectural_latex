@@ -1,0 +1,58 @@
+\newcommand{\Capitulo}[2]{
+\chapter{#1}
+#2
+}
+
+\lstset{ %
+  keywordstyle=\color{blue},  
+}
+
+
+\newcommand{\PuntoDeVista}[7]{
+\section{#1}
+\subsection{Modelo}
+\begin{figure}[H]
+	\centering	
+    \includegraphics[width={#6}\linewidth]{#2}
+	\caption{Modelo #1}
+\end{figure}
+#3
+\subsection{Caso}
+\begin{figure}[H]
+	\centering	
+    \includegraphics[width={#7}\linewidth]{#4}
+	\caption{Caso #1}	
+ \end{figure}
+ #5 
+}
+
+
+
+\newcommand{\PuntoDeVistaResponsive}[7]{
+\begin{center}
+  \begin{minipage}{1\textwidth}
+\section{#1}
+
+\subsection{Modelo}
+
+\begin{figure}[H]
+	\centering	
+    \includegraphics[width=#6\linewidth]{#2}
+	\caption{Modelo #1}
+\end{figure}
+#3
+\end{minipage}
+\end{center}
+\begin{center}
+  \begin{minipage}{1\textwidth}
+\subsection{Caso}
+\begin{figure}[H]
+	\centering	
+    \includegraphics[width=#7\linewidth]{#4}
+	\caption{Caso #1}	
+ \end{figure}
+#5
+\end{minipage}
+\end{center}
+
+}
