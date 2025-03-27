@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.24)  24 MAR 2025 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.24)  26 MAR 2025 22:50
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1645,48 +1645,42 @@ LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported  on input line 13.
- (proyecto/metodo.aux) (proyecto/lenguaje.aux)
-(arquitectura/motivacional.aux
+ (1-Proyecto/capitulo1/metodo.aux)
+(1-Proyecto/capitulo2/lenguaje.aux) (2-Arquitectura/capitulo3/motivacional.aux
 
 LaTeX Warning: Label `fig:stakeholders' multiply defined.
 
-) (arquitectura/estarategica.aux
-
-LaTeX Warning: Label `fig:stakeholders' multiply defined.
-
-
-LaTeX Warning: Label `fig:stakeholders' multiply defined.
-
-) (arquitectura/negocio.aux
+) (2-Arquitectura/capitulo4/estarategica.aux)
+(2-Arquitectura/capitulo5/negocio.aux
 
 LaTeX Warning: Label `fig:stakeholders' multiply defined.
 
 
 LaTeX Warning: Label `fig:stakeholders' multiply defined.
 
-) (arquitectura/aplicacion.aux
+) (2-Arquitectura/capitulo6/aplicacion.aux
 
 LaTeX Warning: Label `fig:stakeholders' multiply defined.
 
 
 LaTeX Warning: Label `fig:stakeholders' multiply defined.
 
-) (arquitectura/infraestructura.aux
+) (2-Arquitectura/capitulo7/infraestructura.aux
 
 LaTeX Warning: Label `fig:stakeholders' multiply defined.
 
 
 LaTeX Warning: Label `fig:stakeholders' multiply defined.
 
-) (arquitectura/migracion.aux
+) (2-Arquitectura/capitulo8/migracion.aux
 
 LaTeX Warning: Label `fig:stakeholders' multiply defined.
 
 
 LaTeX Warning: Label `fig:stakeholders' multiply defined.
 
-) (patrones/creacionales.aux) (patrones/estructurales.aux)
-(patrones/comportamiento.aux))
+) (3-Patrones/creacionales.aux) (3-Patrones/estructurales.aux)
+(3-Patrones/comportamiento.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1846,7 +1840,7 @@ tim
 
 pdfTeX warning: pdflatex (file ./imgs/logo_ud.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<./imgs/logo_ud.pdf, id=262, 615.0638pt x 594.56174pt>
+<./imgs/logo_ud.pdf, id=242, 615.0638pt x 594.56174pt>
 File: ./imgs/logo_ud.pdf Graphic file (type pdf)
 <use ./imgs/logo_ud.pdf>
 Package pdftex.def Info: ./imgs/logo_ud.pdf  used on input line 7.
@@ -1907,7 +1901,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 ...mberline {7}Infraetructura}{22}{chapter.7}
+l.33 ...Migración Arquitectónica}{22}{chapter.7}
                                                   % [1
 
 
@@ -1922,14 +1916,15 @@ l.33 ...mberline {7}Infraetructura}{22}{chapter.7}
 [3
 
 ]
-\openout2 = `proyecto/metodo.aux'.
+\openout2 = `1-Proyecto/capitulo1/metodo.aux'.
 
- (proyecto/metodo.tex
+ (1-Proyecto/capitulo1/metodo.tex
 Cap\'{\i }tulo 1.
-<imgs/Capas ADM.pdf, id=361, 1373.13pt x 1812.7725pt>
-File: imgs/Capas ADM.pdf Graphic file (type pdf)
-<use imgs/Capas ADM.pdf>
-Package pdftex.def Info: imgs/Capas ADM.pdf  used on input line 15.
+<./1-Proyecto/capitulo1/imgs/Capas ADM.pdf, id=336, 1373.13pt x 1812.7725pt>
+File: ./1-Proyecto/capitulo1/imgs/Capas ADM.pdf Graphic file (type pdf)
+<use ./1-Proyecto/capitulo1/imgs/Capas ADM.pdf>
+Package pdftex.def Info: ./1-Proyecto/capitulo1/imgs/Capas ADM.pdf  used on inp
+ut line 17.
 (pdftex.def)             Requested size: 318.66948pt x 420.69075pt.
 
 
@@ -1938,12 +1933,12 @@ Package pdftex.def Info: imgs/Capas ADM.pdf  used on input line 15.
 
 ]
 
-[5 <./imgs/Capas ADM.pdf>])
+[5 <./1-Proyecto/capitulo1/imgs/Capas ADM.pdf>])
 
 [6]
-\openout2 = `proyecto/lenguaje.aux'.
+\openout2 = `1-Proyecto/capitulo2/lenguaje.aux'.
 
- (proyecto/lenguaje.tex
+ (1-Proyecto/capitulo2/lenguaje.tex
 Cap\'{\i }tulo 2.
 
 
@@ -1961,9 +1956,9 @@ Cap\'{\i }tulo 2.
 
 
 ]
-\openout2 = `arquitectura/motivacional.aux'.
+\openout2 = `2-Arquitectura/capitulo3/motivacional.aux'.
 
- (arquitectura/motivacional.tex
+ (2-Arquitectura/capitulo3/motivacional.tex
 Cap\'{\i }tulo 3.
 
 
@@ -1971,26 +1966,31 @@ Cap\'{\i }tulo 3.
 
 
 ]
-<arquitectura/imgs/stakeholders.pdf, id=404, 268.00125pt x 164.615pt>
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 8.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
+<./2-Arquitectura/capitulo3/imgs/stakeholders.pdf, id=379, 476.78125pt x 222.83
+25pt>
+File: ./2-Arquitectura/capitulo3/imgs/stakeholders.pdf Graphic file (type pdf)
+<use ./2-Arquitectura/capitulo3/imgs/stakeholders.pdf>
+Package pdftex.def Info: ./2-Arquitectura/capitulo3/imgs/stakeholders.pdf  used
+ on input line 10.
+(pdftex.def)             Requested size: 318.66948pt x 148.94337pt.
 
 
-[11 <./arquitectura/imgs/stakeholders.pdf>]
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 17.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
+[11 <./2-Arquitectura/capitulo3/imgs/stakeholders.pdf>]
+File: ./2-Arquitectura/capitulo3/imgs/stakeholders.pdf Graphic file (type pdf)
+<use ./2-Arquitectura/capitulo3/imgs/stakeholders.pdf>
+Package pdftex.def Info: ./2-Arquitectura/capitulo3/imgs/stakeholders.pdf  used
+ on input line 19.
+(pdftex.def)             Requested size: 318.66948pt x 148.94337pt.
 
 
 [12])
-\openout2 = `arquitectura/estarategica.aux'.
+\openout2 = `2-Arquitectura/capitulo4/estarategica.aux'.
 
- (arquitectura/estarategica.tex
+
+No file 2-Arquitectura/capitulo4/estarategica.tex.
+\openout2 = `2-Arquitectura/capitulo5/negocio.aux'.
+
+(2-Arquitectura/capitulo5/negocio.tex
 Cap\'{\i }tulo 4.
 
 
@@ -1999,26 +1999,31 @@ Cap\'{\i }tulo 4.
 
 
 
+
+
+
 ]
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 8.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
+<./2-Arquitectura/capitulo5/imgs/stakeholders.pdf, id=396, 476.78125pt x 222.83
+25pt>
+File: ./2-Arquitectura/capitulo5/imgs/stakeholders.pdf Graphic file (type pdf)
+<use ./2-Arquitectura/capitulo5/imgs/stakeholders.pdf>
+Package pdftex.def Info: ./2-Arquitectura/capitulo5/imgs/stakeholders.pdf  used
+ on input line 10.
+(pdftex.def)             Requested size: 318.66948pt x 148.94337pt.
 
 
-[14]
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 17.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
+[14 <./2-Arquitectura/capitulo5/imgs/stakeholders.pdf>]
+File: ./2-Arquitectura/capitulo5/imgs/stakeholders.pdf Graphic file (type pdf)
+<use ./2-Arquitectura/capitulo5/imgs/stakeholders.pdf>
+Package pdftex.def Info: ./2-Arquitectura/capitulo5/imgs/stakeholders.pdf  used
+ on input line 19.
+(pdftex.def)             Requested size: 318.66948pt x 148.94337pt.
 
 
 [15])
-\openout2 = `arquitectura/negocio.aux'.
+\openout2 = `2-Arquitectura/capitulo6/aplicacion.aux'.
 
- (arquitectura/negocio.tex
+ (2-Arquitectura/capitulo6/aplicacion.tex
 Cap\'{\i }tulo 5.
 
 
@@ -2028,25 +2033,27 @@ Cap\'{\i }tulo 5.
 
 
 ]
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 8.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
+<./2-Arquitectura/capitulo6/imgs/stakeholders.pdf, id=412, 476.78125pt x 222.83
+25pt>
+File: ./2-Arquitectura/capitulo6/imgs/stakeholders.pdf Graphic file (type pdf)
+<use ./2-Arquitectura/capitulo6/imgs/stakeholders.pdf>
+Package pdftex.def Info: ./2-Arquitectura/capitulo6/imgs/stakeholders.pdf  used
+ on input line 11.
+(pdftex.def)             Requested size: 318.66948pt x 148.94337pt.
 
 
-[17]
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 17.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
+[17 <./2-Arquitectura/capitulo6/imgs/stakeholders.pdf>]
+File: ./2-Arquitectura/capitulo6/imgs/stakeholders.pdf Graphic file (type pdf)
+<use ./2-Arquitectura/capitulo6/imgs/stakeholders.pdf>
+Package pdftex.def Info: ./2-Arquitectura/capitulo6/imgs/stakeholders.pdf  used
+ on input line 20.
+(pdftex.def)             Requested size: 318.66948pt x 148.94337pt.
 
 
 [18])
-\openout2 = `arquitectura/aplicacion.aux'.
+\openout2 = `2-Arquitectura/capitulo7/infraestructura.aux'.
 
- (arquitectura/aplicacion.tex
+ (2-Arquitectura/capitulo7/infraestructura.tex
 Cap\'{\i }tulo 6.
 
 
@@ -2056,25 +2063,27 @@ Cap\'{\i }tulo 6.
 
 
 ]
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 8.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
+<./2-Arquitectura/capitulo7/imgs/stakeholders.pdf, id=429, 476.78125pt x 222.83
+25pt>
+File: ./2-Arquitectura/capitulo7/imgs/stakeholders.pdf Graphic file (type pdf)
+<use ./2-Arquitectura/capitulo7/imgs/stakeholders.pdf>
+Package pdftex.def Info: ./2-Arquitectura/capitulo7/imgs/stakeholders.pdf  used
+ on input line 10.
+(pdftex.def)             Requested size: 318.66948pt x 148.94337pt.
 
 
-[20]
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 17.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
+[20 <./2-Arquitectura/capitulo7/imgs/stakeholders.pdf>]
+File: ./2-Arquitectura/capitulo7/imgs/stakeholders.pdf Graphic file (type pdf)
+<use ./2-Arquitectura/capitulo7/imgs/stakeholders.pdf>
+Package pdftex.def Info: ./2-Arquitectura/capitulo7/imgs/stakeholders.pdf  used
+ on input line 19.
+(pdftex.def)             Requested size: 318.66948pt x 148.94337pt.
 
 
 [21])
-\openout2 = `arquitectura/infraestructura.aux'.
+\openout2 = `2-Arquitectura/capitulo8/migracion.aux'.
 
- (arquitectura/infraestructura.tex
+ (2-Arquitectura/capitulo8/migracion.tex
 Cap\'{\i }tulo 7.
 
 
@@ -2084,116 +2093,90 @@ Cap\'{\i }tulo 7.
 
 
 ]
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 8.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
+<./2-Arquitectura/capitulo8/imgs/stakeholders.pdf, id=445, 476.78125pt x 222.83
+25pt>
+File: ./2-Arquitectura/capitulo8/imgs/stakeholders.pdf Graphic file (type pdf)
+<use ./2-Arquitectura/capitulo8/imgs/stakeholders.pdf>
+Package pdftex.def Info: ./2-Arquitectura/capitulo8/imgs/stakeholders.pdf  used
+ on input line 10.
+(pdftex.def)             Requested size: 318.66948pt x 148.94337pt.
 
 
-[23]
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 17.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
+[23 <./2-Arquitectura/capitulo8/imgs/stakeholders.pdf>]
+File: ./2-Arquitectura/capitulo8/imgs/stakeholders.pdf Graphic file (type pdf)
+<use ./2-Arquitectura/capitulo8/imgs/stakeholders.pdf>
+Package pdftex.def Info: ./2-Arquitectura/capitulo8/imgs/stakeholders.pdf  used
+ on input line 19.
+(pdftex.def)             Requested size: 318.66948pt x 148.94337pt.
 
 
 [24])
-\openout2 = `arquitectura/migracion.aux'.
-
- (arquitectura/migracion.tex
-Cap\'{\i }tulo 8.
-
 
 [25
 
 
 
-
 ]
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 8.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
+\openout2 = `3-Patrones/creacionales.aux'.
+
+ (3-Patrones/creacionales.tex
+Cap\'{\i }tulo 8.
 
 
-[26]
-File: arquitectura/imgs/stakeholders.pdf Graphic file (type pdf)
-<use arquitectura/imgs/stakeholders.pdf>
-Package pdftex.def Info: arquitectura/imgs/stakeholders.pdf  used on input line
- 17.
-(pdftex.def)             Requested size: 318.66948pt x 195.73602pt.
-
-
-[27])
-
-[28
-
+[26
 
 
 ]
-\openout2 = `patrones/creacionales.aux'.
 
- (patrones/creacionales.tex
+[27]
+
+[28]
+
+[29]
+
+[30])
+\openout2 = `3-Patrones/estructurales.aux'.
+
+ (3-Patrones/estructurales.tex
 Cap\'{\i }tulo 9.
 
 
-[29
+[31
+
+
 
 
 ]
-
-[30]
-
-[31]
 
 [32]
 
-[33])
-\openout2 = `patrones/estructurales.aux'.
+[33]
 
- (patrones/estructurales.tex
+[34]
+
+[35])
+\openout2 = `3-Patrones/comportamiento.aux'.
+
+ (3-Patrones/comportamiento.tex
 Cap\'{\i }tulo 10.
 
 
-[34
+[36
 
 
 
 
 ]
-
-[35]
-
-[36]
 
 [37]
 
-[38])
-\openout2 = `patrones/comportamiento.aux'.
+[38]
 
- (patrones/comportamiento.tex
-Cap\'{\i }tulo 11.
+[39]
 
+[40])
 
-[39
-
-
-
-
-]
-
-[40]
-
-[41]
-
-[42]
-
-[43])
-
-[44
+[41
 
 
 
@@ -2209,19 +2192,20 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 28.
 
 
-[45
+[42
 
 {C:/Users/Erick Turriago/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsol
 ata/i4-t1-0.enc}] (main.aux
 LaTeX Info: Redefining \sptext on input line 13.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- (proyecto/metodo.aux) (proyecto/lenguaje.aux)
-(arquitectura/motivacional.aux) (arquitectura/estarategica.aux)
-(arquitectura/negocio.aux) (arquitectura/aplicacion.aux)
-(arquitectura/infraestructura.aux) (arquitectura/migracion.aux)
-(patrones/creacionales.aux) (patrones/estructurales.aux)
-(patrones/comportamiento.aux))
+ (1-Proyecto/capitulo1/metodo.aux)
+(1-Proyecto/capitulo2/lenguaje.aux) (2-Arquitectura/capitulo3/motivacional.aux)
+(2-Arquitectura/capitulo4/estarategica.aux)
+(2-Arquitectura/capitulo5/negocio.aux) (2-Arquitectura/capitulo6/aplicacion.aux
+) (2-Arquitectura/capitulo7/infraestructura.aux)
+(2-Arquitectura/capitulo8/migracion.aux) (3-Patrones/creacionales.aux)
+(3-Patrones/estructurales.aux) (3-Patrones/comportamiento.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2231,19 +2215,19 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E9FB0933048F35991B51FBDDAD3681F3;7060.
+(rerunfilecheck)             Checksum: 916643AE1CC6D5895D1FAFEA350D66F3;6545.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42232 strings out of 473523
- 848639 string characters out of 5710238
- 1661414 words of memory out of 5000000
- 64580 multiletter control sequences out of 15000+600000
+ 42257 strings out of 473523
+ 853228 string characters out of 5710238
+ 1660407 words of memory out of 5000000
+ 64605 multiletter control sequences out of 15000+600000
  576708 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 124i,12n,126p,788b,2955s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 124i,12n,126p,800b,2955s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
 i600\tcti1200.pk> <C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts/pk/ljfour
 /jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Erick Turriago\AppData\Local\MiKTeX\
@@ -2260,9 +2244,9 @@ sers\Erick Turriago\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecc
 c1728.pk> <C:\Users\Erick Turriago\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
 n/ec/dpi600\eccc2074.pk><C:/Users/Erick Turriago/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
-Output written on main.pdf (46 pages, 1063933 bytes).
+Output written on main.pdf (43 pages, 1419817 bytes).
 PDF statistics:
- 1051 PDF objects out of 1200 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
- 540 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1019 PDF objects out of 1200 (max. 8388607)
+ 120 named destinations out of 1000 (max. 500000)
+ 520 words of extra memory for PDF output out of 10000 (max. 10000000)
 
