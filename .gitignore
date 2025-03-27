@@ -27,3 +27,5 @@
 !.gitignore
 !Makefile
 !.latexmkrc
+
+main.pdf
