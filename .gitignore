@@ -1,12 +1,29 @@
 # Ignora todos los archivos generados por LaTeX excepto main.tex
-main.*
-!main.tex
+*
 
-# También puedes ignorar todos los .aux, .log, .out, .toc, etc.
-*.aux
-*.log
-*.out
-*.toc
-*.synctex.gz
-*.fls
-*.fdb_latexmk
+# Permitir directorios (necesario para que los archivos internos permitidos sean vistos)
+!*/
+
+# Archivos fuente LaTeX
+!*.tex
+!*.bib
+!*.sty
+!*.cls
+!*.bst
+
+# Documentos útiles
+!*.pdf
+!*.txt
+
+# Imágenes
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!*.eps
+
+# Archivos de configuración
+!.gitignore
+!Makefile
+!.latexmkrc
