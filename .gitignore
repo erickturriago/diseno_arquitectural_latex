@@ -1,1 +1,12 @@
+# Ignora todos los archivos generados por LaTeX excepto main.tex
+main.*
+!main.tex
+
+# También puedes ignorar todos los .aux, .log, .out, .toc, etc.
 *.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
