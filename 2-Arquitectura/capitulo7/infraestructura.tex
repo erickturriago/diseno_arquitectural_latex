@@ -1,99 +1,66 @@
 \graphicspath{{./2-Arquitectura/capitulo7/}}
 
 \Capitulo{Tecnología}{
-	
-En esta capa podemos observar la arquitectura tecnológica de la organización, y se describe la estructura y el comportamiento de cada uno de sus elementos.
-Para poder observar esto se proponen los siguientes puntos de vista.\cite{definicion_capas}:
-\begin{itemize}
-    \item Punto de Vista de Tecnología
-    \item Punto de Vista de Uso de la Tecnología
-    \item Punto de Vista de Despliegue e implementación
-    \item Punto de Vista de Estructura de información
-    \item Punto de Vista de Realización del servicio
-    \item Punto de Vista Físico
-    \item Punto de Vista de Capas
 
+Esta capa describe la arquitectura tecnológica de la organización, abordando tanto la estructura como el comportamiento de sus componentes. El objetivo es representar cómo los elementos físicos y lógicos interactúan para soportar las capas superiores del modelo empresarial.
+
+Para ello, se analizan los siguientes puntos de vista propuestos en ArchiMate \cite{definicion_capas}:
+\begin{itemize}
+    \item Tecnología
+    \item Uso de la Tecnología
+    \item Despliegue e Implementación
+    \item Estructura de Información
+    \item Realización del Servicio
+    \item Físico
+    \item Capas
 \end{itemize}
 }
 
-%--------------Punto de Vista de Tecnología-----------------------
-\PuntoDeVista{Punto de Vista de Tecnología}{imgs/Modelo 1.pdf}
-{
-   El punto de vista de tecnología contiene los elementos de software y hardware que soportan la capa de aplicación, como dispositivos físicos, redes o sistemas de software. (sistemas operativos, bases de datos o middleware).
-\cite{definicion_puntos_de_vista}
-}
-{imgs/Caso 1.pdf}
-{
-    Este caso representa la infraestructura tecnológica necesaria para respaldar las operaciones de Estampa tu Idea. Los componentes específicos, como los servidores, la base de datos PostgreSQL, el sistema operativo Windows y las conexiones a Internet y LAN, \textbf{interactúan entre sí para formar una infraestructura cohesiva que respalda las capas superiores }de negocio y aplicación.
- }{1.1}{1}
-
-%--------------Punto de Vista de Uso de Tecnología-----------------------
-\PuntoDeVistaResponsive{Punto de Vista de Uso de Tecnología}{imgs/Modelo 2.pdf}{
-   El punto de vista de uso de tecnología muestra como las aplicaciones son soportadas por la infraestructura de software y hardware: los servicios de infraestructura son entregados por los dispositivos, los sistemas de software y redes son entregados a las aplicaciones. Este punto de vista juega un rol importante en el análisis del rendimiento y la escalabilidad y puede ser usado para determinar requerimientos de rendimiento y calidad en la infraestructura basado en las demandas de las aplicaciones que la usan. \cite{definicion_puntos_de_vista}
-}{imgs/Caso 2.pdf}{
-   \textbf{ Este caso representa el flujo tecnológico para procesos de pagos e inventario.} La aplicación del servidor es un sistema de software, la pasarela de pagos es un servicio de infraestructura y el plugin de pagos es un componente de software. Esta representación detalla la integración de componentes clave para funciones específicas, \textbf{esencial para una eficaz gestión tecnológica en la organización.}
-}{1.1}{1}
-
-%--------------Punto de Vista de Despliegue e Implementacion-----------------------
-\PuntoDeVistaResponsive{Punto de Vista de Despliegue e Implementación}{imgs/Modelo 2.pdf}{
-  El punto de vista de implementación y despliegue muestra como uno o más aplicaciones son realizadas sobre la infraestructura. Esto implica el mapeo de aplicaciones (lógicas) y componentes en artefactos (fisicos). Esta vista juega un papel importante en el análisis del rendimiento y la escalabilidad debido a la relación entre la infraestructura y el mundo lógico de las aplicaciones. \cite{definicion_puntos_de_vista}
-}{imgs/Caso 3.pdf}{
-    Este caso representa la gestión de bases de datos e inventarios, destacando la interacción entre diferentes componentes. Abarca nodos de infraestructura, artefactos y redes, que reflejan dispositivos físicos, datos y conectividad respectivamente.\textbf{ Este enfoque ofrece una visión clara de cómo los sistemas de software se integran con la infraestructura de hardware, permitiendo una gestión efectiva de recursos para respaldar las operaciones organizacionales.}
-}{1}{1}
-
-
-
-
-%---------------------- Punto de Vista de Estructura de Informaciónn----------------------
-\PuntoDeVista{ Punto de Vista de Estructura de Información}{imgs/Modelo 4.pdf}
-{
-    En este punto de vista se observa como la aplicación es soportada tanto a nivel de software como de hardware. Gracias a esto se podrá usar este punto de vista para el análisis de rendimiento y escalabilidad.
-\cite{definicion_capas}
-
-}
-{imgs/Caso 4.pdf}
-{
-   Este caso representa la estructura de la información que se despliega mediante componentes interconectados. Por ejemplo, Estampado se vincula con Catálogo, indicando la disponibilidad de productos. Materiales conecta directamente con Inventario y Cliente, gestionando recursos y relaciones con los clientes. La Ubicación interactúa con los clientes, señalando su geolocalización. La Fábrica se relaciona con el Inventario, gestionando la producción. Esta estructura revela cómo los componentes tecnológicos se relacionan para respaldar las operaciones del sistema.
-    
-}{0.7}{0.7}
-
-
-%----------------------  Punto de Vista de Realización del Servicio----------------------
-\PuntoDeVistaResponsive{ Punto de Vista de Realización del Servicio}{imgs/Modelo 5.pdf}
-{
- En este punto de vista se observa como la aplicación soporta varios procesos de negocio y como es requerida por otras aplicaciones. Gracias a este punto de vista se puede
-observar las necesidades de los diferentes procesos de negocios en cuanto a los servicios que ofrecen sus aplicaciones y esto facilita tanto un mejor diseño de las aplicaciones como
-el entendimiento mismo de procesos.\cite{definicion_capas}
-
-}
-{imgs/Caso 5.pdf}
-{
-   \textbf{Este caso representa como la realización del servicio de  personalización se despliega con un flujo eficiente.} Desde la Experiencia de Personalización Avanzada hasta la Creación de estampados únicos por parte del Artista, cada etapa se conecta de manera fluida. El cliente inicia el proceso, configura sus preferencias, y el catálogo y el inventario facilitan la selección de opciones. Finalmente, el artista utiliza los recursos del inventario para concretar la solicitud del cliente, asegurando una experiencia personalizada y satisfactoria. 
-}{1.2}{0.8}
-
-
-%----------------------Punto de vista físico---------------------
-\PuntoDeVista{Punto de vista físico
-}{imgs/Modelo 6.pdf}
-{
-   Este punto de vista se concentra en representar los elementos tangibles de la arquitectura empresarial. Este modelo describe la infraestructura física y tecnológica necesaria para ejecutar los procesos y servicios empresariales.
-
-}
-{imgs/Caso 6.pdf}
-{
-   El caso muestra cómo los componentes físicos (servidor web, despachador y proveedores) interactúan para proporcionar servicios a los usuarios. El despachador juega un papel crucial al distribuir las materias primas entrantes a los inventarios del servidor web.
+%--------------Tecnología-----------------------
+\PuntoDeVista{Punto de Vista de Tecnología}{imgs/Modelo 1.pdf}{
+    Este punto de vista incluye los elementos de software y hardware que respaldan la capa de aplicación, como dispositivos físicos, redes, sistemas operativos, bases de datos o middleware. \cite{definicion_puntos_de_vista}
+}{imgs/Caso 1.pdf}{
+    El caso muestra la infraestructura tecnológica que sustenta las operaciones de “Estampa tu Idea”. Se representan componentes como servidores, bases de datos PostgreSQL, sistema operativo Windows y redes LAN e Internet, evidenciando cómo se articulan para soportar las funcionalidades del negocio y la aplicación.
 }{0.8}{0.8}
 
-%----------------------Punto de Vista de Capas----------------------
-\PuntoDeVista{Punto de Vista de Capas
-}{imgs/Modelo 7.pdf}
-{
-  En este diagrama se pueden describir varios aspectos de la arquitectura empresarial.
-Se pueden categorizar estas capas en dos tipos: las dedicadas y las de servicio. Esta división resulta de agrupar las diferentes relaciones y el cómo expone sus servicios a la siguiente capa. El punto principal de esta capa es dar una vista general en un solo diagrama.\cite{definicion_capas}
+%--------------Uso de Tecnología-----------------------
+\PuntoDeVistaResponsive{Punto de Vista de Uso de Tecnología}{imgs/Modelo 2.pdf}{
+    Este modelo representa cómo las aplicaciones son soportadas por la infraestructura tecnológica. Incluye los servicios provistos por dispositivos, software y redes, y permite evaluar su rendimiento frente a las demandas de las aplicaciones que utilizan dichos servicios. \cite{definicion_puntos_de_vista}
+}{imgs/Caso 2.pdf}{
+    El caso ilustra la estructura tecnológica que respalda procesos como pagos e inventario. Se incluyen elementos como la pasarela de pagos, el sistema de software del servidor y plugins asociados. La representación muestra cómo se integran estos componentes para ofrecer funcionalidades específicas dentro de la plataforma.
+}{0.6}{0.6}
 
-}
-{imgs/Caso 7.pdf}
-{
-   Este caso representa como las capas de Tecnología, Aplicación y Negocio interactúan las unas con las otras para poder proveer un servicio al negocio: El cual es dar la posibilidad de comprar y personalizar camisetas.
-    
-}{0.5}{0.5}
+%--------------Despliegue e Implementación-----------------------
+\PuntoDeVistaResponsive{Punto de Vista de Despliegue e Implementación}{imgs/Modelo 2.pdf}{
+    Este punto de vista muestra cómo las aplicaciones se implementan sobre la infraestructura tecnológica. Describe la relación entre componentes lógicos y artefactos físicos, permitiendo analizar aspectos como escalabilidad o rendimiento. \cite{definicion_puntos_de_vista}
+}{imgs/Caso 3.pdf}{
+    El caso aborda la gestión de bases de datos e inventarios, incluyendo nodos, artefactos y redes que representan los dispositivos, datos y conexiones necesarios. Se destaca cómo la infraestructura tecnológica respalda el funcionamiento coordinado de los sistemas que soportan las operaciones internas.
+}{0.6}{0.5}
+
+%--------------Estructura de Información-----------------------
+\PuntoDeVista{Punto de Vista de Estructura de Información}{imgs/Modelo 4.pdf}{
+    Este modelo permite visualizar cómo la información es estructurada y respaldada a nivel tecnológico. Resulta útil para el análisis de rendimiento y para comprender la relación entre datos y componentes de software o hardware. \cite{definicion_capas}
+}{imgs/Caso 4.pdf}{
+    El caso muestra la estructura de información del sistema, conectando componentes como “Estampado”, “Catálogo”, “Inventario” y “Ubicación”. Se evidencian relaciones entre procesos y datos, como la gestión de materiales y la localización de clientes, que son esenciales para operar la plataforma.
+}{0.7}{0.7}
+
+%--------------Realización del Servicio-----------------------
+\PuntoDeVistaResponsive{Punto de Vista de Realización del Servicio}{imgs/Modelo 5.pdf}{
+    Este modelo describe cómo la infraestructura tecnológica permite la prestación de servicios requeridos por las aplicaciones y procesos de negocio. Facilita el diseño de soluciones que respondan a necesidades funcionales y operativas. \cite{definicion_capas}
+}{imgs/Caso 5.pdf}{
+    El caso presenta el flujo tecnológico que permite la personalización de camisetas. Desde la configuración inicial por parte del cliente hasta la creación del diseño por el artista, se evidencian los elementos que intervienen: catálogo, inventario, preferencias de usuario y recursos técnicos. El modelo refleja una ejecución integrada y eficiente.
+}{0.7}{0.7}
+
+%--------------Físico-----------------------
+\PuntoDeVista{Punto de Vista Físico}{imgs/Modelo 6.pdf}{
+    Este modelo se enfoca en representar los elementos tangibles que conforman la arquitectura tecnológica de la organización, incluyendo dispositivos, servidores y otros recursos físicos necesarios para soportar las operaciones.
+}{imgs/Caso 6.pdf}{
+    El caso muestra la interacción entre el servidor web, el despachador y los proveedores. El despachador distribuye materias primas hacia el inventario, mientras que el servidor garantiza el funcionamiento de la plataforma. Esta vista permite comprender cómo los recursos físicos participan activamente en los servicios entregados.
+}{0.8}{0.8}
+
+%--------------Capas-----------------------
+\PuntoDeVista{Punto de Vista de Capas}{imgs/Modelo 7.pdf}{
+    Este diagrama presenta una visión integrada de la arquitectura, organizando los elementos en capas: negocio, aplicación y tecnología. La separación entre capas y servicios permite analizar cómo se conectan los distintos niveles para entregar valor. \cite{definicion_capas}
+}{imgs/Caso 7.pdf}{
+    El caso refleja cómo las capas interactúan para brindar el servicio de personalización y venta de camisetas. Desde la infraestructura tecnológica hasta los servicios del negocio, se evidencia una continuidad que permite al usuario acceder a la plataforma, personalizar su prenda y concretar la compra.
+}{0.3}{0.5}
