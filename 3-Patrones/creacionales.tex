@@ -1,33 +1,83 @@
+\graphicspath{{./3-Patrones/imgs/}}
+
 \chapter{Creacionales}
-\section{Introducción}
+\subsubsection{Introducción}{
+    Los patrones de diseño creacionales abordan la problemática de la instanciación de objetos, proporcionando mecanismos que aumentan la flexibilidad del sistema y promueven la reutilización del código existente. Su objetivo principal es desacoplar a un cliente de la manera en que los objetos que necesita son creados, compuestos y representados, encapsulando el conocimiento sobre qué clases concretas se utilizan y ocultando los detalles de su ensamblaje.
+
+    Estos patrones se vuelven fundamentales para controlar la complejidad inherente al proceso de creación, especialmente en sistemas donde la instanciación no es trivial. A lo largo de este capítulo, se analizarán las implementaciones de los patrones creacionales más influyentes aplicados en el proyecto. Se examinará el patrón Singleton, que garantiza la existencia de una única instancia para recursos compartidos; los patrones de Fábrica (Factory Method y Abstract Factory), que delegan y centralizan la lógica de creación de objetos; y el patrón Builder, que facilita la construcción de objetos complejos paso a paso.
+}
+
+\Patron
+    {Singleton - Frontend}
+    {La intención del patrón Singleton es garantizar que una clase solo tenga una única instancia y proporcionar un punto de acceso global a ella. En esta aplicación, su propósito es asegurar que exista un único cliente HTTP para todas las comunicaciones con la API del backend, centralizando su configuración y gestión. El patrón es la solución natural para recursos que son inherentemente únicos y globales, garantizando que todos los componentes de la aplicación utilicen el mismo objeto y la misma configuración, lo cual simplifica el código y centraliza la lógica de comunicación.}
+    {El patrón resuelve el problema que surge cuando múltiples módulos de la aplicación necesitan realizar peticiones HTTP. Si cada módulo creara su propia instancia de un cliente, se generarían ineficiencias al crear múltiples objetos, inconsistencias al tener que replicar la configuración y dificultades para gestionar un estado global como los interceptores de autenticación. Su funcionamiento se basa en una clase con un constructor privado y un método estático que controla el acceso a la única instancia, asegurando que todos los módulos compartan el mismo objeto cliente.}
+    {modelos/creacionales/Singleton.pdf}
+    {aplicados/creacionales/Singleton_Frontend.pdf}
+    {./3-Patrones/codigo/creacionales/Singleton_Frontend.ts}
+    {0.5}{0.5}
+    {typescript}
 \newpage
-\section{Nombre}
-\subsection{realizacion}
+
+\Patron
+    {Singleton - Backend}
+    {El propósito de este patrón es garantizar que una clase tenga una única instancia y proporcionar un punto de acceso global a ella, permitiendo un control centralizado sobre recursos compartidos. Se eligió porque garantiza una única fuente de verdad para los estados de las órdenes, donde permitir múltiples instancias de la fábrica de estados podría generar inconsistencias.}
+    {Resuelve la necesidad de gestionar un recurso único, como la fábrica de estados de una orden, para mantener la consistencia en todas las transiciones. Su funcionamiento se basa en una clase con un constructor privado para evitar la instanciación externa. La clase mantiene una referencia estática y privada a su propia y única instancia y proporciona un método estático público `getInstance()` que devuelve dicha instancia, creándola solo la primera vez que se solicita (inicialización perezosa).}
+    {modelos/creacionales/Singleton.pdf}
+    {aplicados/creacionales/Singleton_Backend.pdf}
+    {./3-Patrones/codigo/creacionales/Singleton_Backend.java}
+    {0.5}{0.7}
+    {java}
 \newpage
-\subsection{funcionamiento}
+
+\Patron
+    {Fábrica Abstracta - Frontend}
+    {La intención de este patrón es definir una interfaz para crear un objeto, dejando que una función o clase decida qué clase concreta instanciar. En la aplicación, su propósito es centralizar la lógica de creación de diferentes tipos de usuarios (Cliente, Artista, Admin) a partir de datos en crudo provenientes de la API, sin que el código cliente necesite conocer las clases concretas. Se eligió esta implementación porque desacopla completamente al cliente de los productos, ya que su única dependencia es con la `UserFactory`. Esto centraliza la lógica de construcción en un solo lugar y facilita la extensibilidad, cumpliendo con el Principio Abierto/Cerrado.}
+    {El patrón resuelve el problema de convertir un objeto de usuario genérico, recibido desde la API con un campo de rol, en una instancia de una clase específica del modelo (`Cliente`, `Artista` o `Admin`). Su funcionamiento se basa en una clase `UserFactory` que expone un método estático `createUser`. Este método recibe los datos del usuario, analiza el rol mediante una sentencia `switch` interna, e instancia y devuelve el objeto de la clase concreta correspondiente. De esta manera, el código cliente (`EmailPasswordAuthStrategy`) delega la responsabilidad de la creación de objetos a la fábrica, lo que evita el acoplamiento con las clases concretas y elimina la necesidad de tener bloques lógicos `if/else` en su propio código.}
+    {modelos/creacionales/Abstract_Factory.pdf}
+    {aplicados/creacionales/Abstract_Factory_Frontend.pdf}
+    {./3-Patrones/codigo/creacionales/Abstract_Fabric.ts}
+    {1}{1}
+    {typescript}
 \newpage
-\subsection{estructura}
+
+\Patron
+    {Factory Method - Backend}
+    {La intención de este patrón es definir una interfaz para crear objetos, permitiendo que las subclases decidan qué clase concreta instanciar para delegar la creación. En el proyecto, se utiliza para centralizar la creación de respuestas HTTP estandarizadas y la de objetos `OrderItem`, asegurando que incluyan validaciones y cálculos automáticos. Se eligió este patrón por su simplicidad para centralizar la lógica de creación sin requerir la herencia compleja de alternativas como Abstract Factory.}
+    {Este patrón resuelve la eliminación de código duplicado en los controladores al momento de crear respuestas HTTP, y previene la creación inconsistente de items de una orden que requerirían cálculos manuales de precios. Su funcionamiento se basa en clases `Factory` con métodos estáticos que encapsulan la lógica de instanciación. Los clientes, como los controladores REST y los servicios de negocio, invocan estos métodos fábrica en lugar de usar directamente los constructores de los productos, delegando así la responsabilidad de la creación.}
+    {modelos/creacionales/Factory_Method.pdf}
+    {aplicados/creacionales/Factory_Method_Backend.pdf}
+    {./3-Patrones/codigo/creacionales/Factory_Method_Backend.java}
+    {0.8}{0.9}
+    {java}
 \newpage
-\subsection{codigo}
-%	\begin{minted}{C}
-%		#include <stdio.h>
-%		#define N 10
-%		/* Comentario en un
-%		* bloque*/
-%		
-%		int main()
-%		{
-%			int i;
-%			
-%			// Line comment.
-%			puts("¡Hola Mundo!");
-%			
-%			for (i = 0; i < N; i++)
-%			{
-%				puts("¡LaTeX también es genial para los programadores!");
-%			}
-%			
-%%			return 0;
-%		}
-%	\end{minted}
+
+\Patron
+    {Builder - Frontend}
+    {La intención del patrón Builder es separar la construcción de un objeto complejo de su representación final, permitiendo que el mismo proceso de construcción pueda crear diferentes configuraciones del objeto. En este caso, se utiliza para construir de forma controlada y paso a paso una camiseta personalizada. Se eligió este patrón por ser la solución ideal para la construcción progresiva, ya que evita el anti-patrón del constructor telescópico y guía al cliente a través de un proceso legible, al final del cual el método `build()` entrega un objeto completo y en un estado consistente.}
+    {Este patrón resuelve la creación incremental de un objeto complejo, donde la información necesaria se recopila en diferentes momentos y un único constructor no es viable. Su funcionamiento se basa en una clase `Builder` que encapsula la construcción del producto. El cliente utiliza una instancia del `Builder`, invoca sus métodos para configurar el objeto paso a paso, y finalmente llama al método `build()` para obtener la instancia del producto final, completo y en un estado válido. Esto oculta la lógica de ensamblaje del objeto, que está contenida dentro del `Builder` y no dispersa en el cliente.}
+    {modelos/creacionales/Builder.pdf}
+    {aplicados/creacionales/Builder_Frontend.pdf}
+    {./3-Patrones/codigo/creacionales/Builder_Frontend.ts}
+    {0.9}{0.5}
+    {typescript}
 \newpage
+
+\Patron
+    {Builder - Backend}
+    {El propósito del patrón Builder es separar la construcción de un objeto complejo de su representación final, lo que permite que el mismo proceso de construcción pueda generar diferentes configuraciones del objeto. Facilita la creación paso a paso de objetos con múltiples atributos. Se eligió por ser ideal para objetos con muchos parámetros opcionales, como `CustomDesign`, donde múltiples constructores o un Factory Method serían insuficientes o inmanejables.}
+    {Resuelve el problema de la creación de objetos complejos con múltiples parámetros opcionales y validaciones, evitando constructores con listas de argumentos muy largas y confusas. El funcionamiento se basa en una clase interna estática `Builder` que cuenta con una interfaz fluida. El cliente inicializa el `Builder` con los parámetros obligatorios, luego invoca métodos encadenados para establecer los atributos opcionales y, finalmente, llama al método `build()` para obtener el objeto del producto final, completo y consistente.}
+    {modelos/creacionales/Builder.pdf}
+    {aplicados/creacionales/Builder_Backend.pdf}
+    {./3-Patrones/codigo/creacionales/Builder_Backend.java}
+    {0.9}{0.6}
+    {java}
+\newpage
+
+% \Patron
+%     {Prototipo}
+%     {El propósito del patrón Prototipo es ofrecer un mecanismo de copia que permita hacer réplicas de un objeto existente. Este enfoque es eficiente para crear nuevas instancias a partir de un objeto que ya cuenta con una máquina de estados específica, permitiendo continuar su ciclo de vida desde un punto determinado sin necesidad de reconstruir el proceso que lo produce. El patrón encapsula la lógica de instanciación en un modelo de replicación, reduciendo la complejidad del sistema.}
+%     {Este patrón resuelve el problema del alto costo en rendimiento y complejidad que representa la instanciación e inicialización repetitiva de objetos para alcanzar un estado deseado. Su funcionamiento se basa en un objeto prototipo que implementa una interfaz de clonación. Los clientes, en lugar de crear objetos desde cero, solicitan una copia al prototipo. Es fundamental en su implementación tener en cuenta si la copia es profunda (creando nuevas instancias de todos sus componentes) o superficial (compartiendo referencias), ya que cada enfoque tiene sus propias implicaciones.}
+%     {example-image-a}
+%     {example-image-b}
+%     {./3-Patrones/codigo/Singleton_Backend.java}
+% \newpage

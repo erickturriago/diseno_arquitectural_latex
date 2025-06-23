@@ -1,12 +1,79 @@
 \chapter{Estructurales}
-\section{Introducción}
+\subsubsection{Introducción}{
+    Los patrones de diseño estructurales se centran en la composición de clases y objetos para formar estructuras más grandes y complejas. Su principal objetivo es simplificar el diseño identificando maneras sencillas de realizar relaciones entre entidades, lo que a su vez mejora la flexibilidad y la eficiencia del sistema sin alterar su funcionalidad fundamental.
+
+    Estos patrones son esenciales para construir sistemas robustos y mantenibles. Al enfocarse en las relaciones entre los componentes, permiten que la estructura evolucione y se adapte a nuevos requerimientos sin necesidad de rediseñar todo el sistema. Facilitan el desacoplamiento y la organización del código en subsistemas coherentes.
+
+    En este capítulo se explorarán las implementaciones de varios patrones estructurales clave utilizados en el frontend de la aplicación. Se analizará el patrón Composite, para tratar objetos individuales y compuestos de manera uniforme; el patrón Decorator, que añade responsabilidades a objetos dinámicamente; el patrón Facade, que provee una interfaz simplificada a un sistema complejo; y el patrón Proxy, utilizado para controlar el acceso a otros objetos.
+}
+
+% \Patron
+%     {Adaptador}
+%     {El propósito del patrón Adaptador es permitir la colaboración entre clases con interfaces incompatibles.  Su finalidad es convertir la interfaz de una clase en otra que los clientes esperan, permitiendo que una semántica ya implementada sea identificada bajo una denominación diferente a la establecida originalmente.  Esto ofrece una alternativa de reutilización que hace más cómodo el uso de lógica ya existente en un nuevo contexto. }
+%     {Este patrón resuelve el problema de la redundancia en el software, que a menudo ocurre cuando lógicas similares se duplican porque sus interfaces son diferentes.  Su funcionamiento se basa en la creación de una clase Adaptador que actúa como un intermediario o envoltorio. Dicha clase implementa la interfaz que el cliente requiere y, a su vez, contiene una instancia de la clase con la interfaz existente. Cuando el cliente realiza una petición al Adaptador, este traduce la llamada a la interfaz del objeto adaptado, logrando la compatibilidad entre ambos.}
+%     {example-image-a}
+%     {example-image-b}
+%     {./3-Patrones/codigo/Singleton_Backend.java}
+% \newpage
+
+% \Patron
+%     {Puente}
+%     {El propósito del patrón Puente es desacoplar una abstracción de su implementación, permitiendo que ambas puedan evolucionar de forma independiente. Este patrón genera dos jerarquías de clases separadas: una para la abstracción principal, que modela una situación particular del diseño, y otra donde se extienden las implementaciones. Esto evita que el modelo se extienda de manera desordenada y con un alto costo de mantenimiento, al mismo tiempo que brinda un abanico de implementaciones sobre un servicio particular.}
+%     {Este patrón resuelve el problema que surge cuando una abstracción y sus implementaciones varían, evitando una explosión de clases que ocurriría si se usara herencia directa. Su funcionamiento se basa en la delegación. La jerarquía de abstracción principal contiene una referencia a un objeto de la jerarquía de implementación. Cuando se invoca una operación en la abstracción, esta delega la ejecución al objeto de implementación que contiene. Esto permite que la implementación pueda ser cambiada dinámicamente sin afectar al cliente que utiliza la abstracción principal.}
+%     {example-image-a}
+%     {example-image-b}
+%     {./3-Patrones/codigo/Singleton_Backend.java}
+% \newpage
+
+\Patron
+    {Composite - Frontend}
+    {La intención de este patrón es componer objetos en estructuras de árbol para representar jerarquías de parte-todo, permitiendo que los clientes traten a los objetos individuales y a las composiciones de objetos de manera uniforme. Se eligió por su capacidad para modelar estructuras recursivas como un sistema de filtros complejos, simplificando radicalmente el código del cliente y facilitando la extensibilidad para añadir nuevos tipos de filtros sin alterar la estructura existente.}
+    {Resuelve la necesidad de implementar un sistema de filtrado avanzado con lógicas anidadas (AND/OR/NOT), evitando el código condicional complejo y difícil de mantener. Su funcionamiento se basa en una interfaz común (Componente) que es implementada tanto por los objetos simples (Hojas) como por los contenedores (Compuestos). La clase Compuesto mantiene una colección de Componentes y delega la operación a sus hijos, permitiendo al cliente construir un árbol de reglas y ejecutarlo de forma transparente.}
+    {modelos/estructurales/Composite.pdf}
+    {aplicados/estructurales/Composite_Frontend.pdf}
+    {./3-Patrones/codigo/estructurales/Composite_Frontend.ts}
+    {1}{1.2}
+    {typescript}
 \newpage
-\section{Nombre}
-\subsection{realizacion}
+
+\Patron
+    {Decorator - Frontend}
+    {La intención de este patrón es añadir responsabilidades adicionales a un objeto de forma dinámica, proporcionando una alternativa flexible a la herencia para extender la funcionalidad. En la aplicación, se utiliza para agregar los costos de las estampas al costo de una prenda base de manera incremental. Se eligió este patrón porque permite "apilar" funcionalidades o costos de forma dinámica; cada decorador es simple y solo añade una responsabilidad, lo que resulta en un diseño extremadamente flexible y extensible.}
+    {Este patrón resuelve el problema de calcular el costo de un producto cuyo precio final depende de un número variable de adiciones definidas en tiempo de ejecución, evitando la "explosión de clases" que ocurriría al crear una subclase para cada combinación. Su funcionamiento se basa en una interfaz común para el objeto original y los decoradores. Cada decorador envuelve a otro objeto que comparte la misma interfaz, delega la llamada a su método principal al objeto envuelto y luego añade su propia lógica o costo al resultado, permitiendo construir una cadena de responsabilidades dinámicamente.}
+    {modelos/estructurales/Decorator.pdf}
+    {aplicados/estructurales/Decorator_Frontend.pdf}
+    {./3-Patrones/codigo/estructurales/Decorator_Frontend.ts}
+    {1}{1.2}
+    {typescript}
 \newpage
-\subsection{funcionamiento}
+
+\Patron
+    {Facade - Frontend}
+    {La intención del patrón Facade es proveer una interfaz unificada y simplificada a un conjunto de interfaces de un subsistema más complejo. Su propósito es definir una interfaz de más alto nivel que facilite el uso del subsistema, desacoplando a los clientes de la complejidad interna de sus componentes. Se eligió este patrón porque su objetivo principal es la simplificación y el desacoplamiento, creando un punto de entrada único y sencillo a todo un subsistema, en este caso, para encapsular las interacciones con los servicios de Firebase.}
+    {Este patrón resuelve la complejidad de interactuar con subsistemas como el SDK de Firebase, donde operaciones simples para el usuario requieren múltiples pasos de bajo nivel. Implementar esta lógica en cada componente sería repetitivo, propenso a errores y generaría un fuerte acoplamiento. Su funcionamiento se basa en una clase Fachada que encapsula dicha complejidad. Esta clase expone métodos simples que, internamente, realizan todas las interacciones necesarias con las diferentes partes del subsistema. De esta manera, las clases cliente solo dependen de la fachada, sin conocer los detalles de la implementación subyacente.}
+    {modelos/estructurales/Facade.pdf}
+    {aplicados/estructurales/Facade_Frontend.pdf}
+    {./3-Patrones/codigo/estructurales/Facade_Frontend.ts}
+    {0.5}{0.6}
+    {typescript}
 \newpage
-\subsection{estructura}
-\newpage
-\subsection{codigo}
+
+% \Patron
+%     {Flyweight (Peso Ligero)}
+%     {El propósito del patrón Flyweight está enfocado en el control de la granularidad fina que puede aparecer en aplicaciones con una instanciación copiosa de objetos, la cual puede agotar los recursos computacionales si no es controlada. Su finalidad es gestionar la instanciación al definir los estados extrínsecos e intrínsecos de los objetos para poder almacenar eficientemente las características comunes, lo que permite no solo disminuir su volumen en memoria sino también hacer más eficiente su gestión.}
+%     {Este patrón resuelve el problema del consumo excesivo de recursos computacionales, tanto de almacenamiento como de procesamiento, asociado a la creación de una gran cantidad de objetos sin un control adecuado. Su funcionamiento se basa en la separación del estado de un objeto en dos partes: el estado intrínseco, que es inmutable y compartido entre múltiples objetos, y el estado extrínseco, que es único para cada objeto y proporcionado por el cliente. Una fábrica se encarga de gestionar y reutilizar un conjunto de objetos flyweight compartidos, devolviendo instancias existentes en lugar de crear nuevas, lo que reduce drásticamente el uso de memoria.}
+%     {example-image-a}
+%     {example-image-b}
+%     {./3-Patrones/codigo/Singleton_Backend.java}
+% \newpage
+
+\Patron
+    {Proxy - Frontend}
+    {La intención de este patrón es proporcionar un sustituto o intermediario para otro objeto con el fin de controlar su acceso, actuando como una puerta de entrada que permite realizar acciones adicionales. En esta aplicación, se utiliza como un Proxy de Protección para gestionar la autorización basada en roles. Se eligió este patrón por ser la solución idónea para el control de acceso, ya que centraliza la lógica de autorización en un componente "guardia de seguridad", manteniendo los componentes protegidos limpios y enfocados en su funcionalidad principal.}
+    {Este patrón resuelve la necesidad de tener un mecanismo robusto y reutilizable para proteger rutas y componentes con datos sensibles, que solo deben ser accesibles para usuarios con roles específicos. Su funcionamiento se basa en un componente Proxy que envuelve al componente real (Sujeto Real). El cliente, en lugar de renderizar el componente real directamente, renderiza el proxy y le pasa el componente real como hijo. El proxy intercepta la solicitud, realiza una comprobación de acceso, como verificar el rol del usuario, y solo si la condición se cumple, delega la renderización al componente real que contiene.}
+    {modelos/estructurales/Proxy.pdf}
+    {aplicados/estructurales/Proxy_Frontend.pdf}
+    {./3-Patrones/codigo/estructurales/Proxy_Frontend.ts}
+    {0.9}{0.6}
+    {typescript}
 \newpage
