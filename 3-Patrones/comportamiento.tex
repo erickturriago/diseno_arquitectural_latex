@@ -8,18 +8,18 @@
 }
 
 \Patron
-    {Chain of Responsibility - Backend}
+    {Cadena de Responsabilidad - Backend}
     {La intención de este patrón es desacoplar al emisor de una solicitud de su receptor, permitiendo que la solicitud pase a través de una cadena de manejadores potenciales hasta que uno de ellos la procese. Se justifica su uso porque permite la creación de validaciones modulares y extensibles de forma secuencial, lo cual no es el objetivo de un patrón como Strategy.}
     {Resuelve el problema de la validación compleja de un objeto que debe cumplir múltiples criterios, evitando concentrar toda la lógica en un solo método monolítico. Su funcionamiento se basa en la creación de una cadena de objetos manejadores. Cada manejador contiene una referencia al siguiente en la cadena y tiene la capacidad de procesar una solicitud. Si un manejador no puede procesar la solicitud, la pasa al siguiente manejador en la cadena, hasta que la solicitud sea atendida o se llegue al final de la cadena.}
     {modelos/comportamiento/Chain_Of_Responsability.pdf}
     {aplicados/comportamiento/Chain_Of_Responsability_Backend.pdf}
-    {./3-Patrones/codigo/comportamiento/Chain_Of_Responsability_Backend.java}
+    {./3-Patrones/codigo/comportamiento/Chain_Of_Responsibility_Backend.java}
     {0.9}{0.8}
     {java}
 \newpage
 
 \Patron
-    {Command - Frontend}
+    {Comando - Frontend}
     {La intención de este patrón es encapsular una solicitud o una acción como un objeto independiente. Esto permite desacoplar los objetos que emiten una solicitud de los que saben cómo llevarla a cabo, además de permitir parametrizar, encolar o registrar solicitudes. Se eligió para separar claramente al "Invocador" (el componente de la vista) de los "Receptores" (los servicios y stores que realizan el trabajo), haciendo el código más cohesivo y testable.}
     {Resuelve el problema de tener lógica de negocio compleja (que involucra múltiples pasos como llamadas a API, subida de archivos y actualización del estado local) dentro de los manejadores de eventos de los componentes de la vista. Su funcionamiento se basa en una interfaz `Comando` con un método `execute`. Cada acción se implementa como una clase de comando concreta que encapsula los datos y las referencias a los objetos receptores necesarios para realizar la tarea. El invocador simplemente crea una instancia del comando y llama a su método `execute`.}
     {modelos/comportamiento/Command.pdf}
@@ -57,7 +57,7 @@
 % \newpage
 
 \Patron
-    {Memento - Frontend}
+    {Momento - Frontend}
     {La intención de este patrón es capturar y externalizar el estado interno de un objeto para que pueda ser restaurado posteriormente, sin violar la encapsulación del objeto original, sirviendo como base para implementar mecanismos de "Deshacer" y "Rehacer". Se eligió por ser la solución canónica para sistemas de Undo/Redo basados en "snapshots" de estado, ya que desacopla la lógica de gestión del historial del objeto cuyo estado se está guardando. El participante `Originator` solo se preocupa de su estado actual, mientras el `Caretaker` mantiene una pila de estados pasados sin entender su contenido.}
     {Resuelve la necesidad de ofrecer una forma robusta de deshacer y rehacer una secuencia de operaciones complejas, como las que realiza un usuario sobre un lienzo de personalización. Su funcionamiento involucra tres participantes: el `Originator`, que es el objeto cuyo estado se guarda y crea un `Memento` para almacenar una "foto" de su estado en un momento dado; y el `Caretaker`, que gestiona una lista de `Mementos` y colabora con el `Originator` para las operaciones de guardado y restauración. El cliente coordina a estos participantes en respuesta a las acciones del usuario.}
     {modelos/comportamiento/Memento.pdf}
@@ -68,7 +68,7 @@
 \newpage
 
 \Patron
-    {State - Backend}
+    {Estado - Backend}
     {La intención de este patrón es permitir que un objeto altere su comportamiento cuando su estado interno cambia, haciendo que el objeto parezca cambiar de clase. Se eligió por su capacidad para encapsular comportamientos específicos de cada estado y las transiciones entre ellos. Es más adecuado que Strategy porque el comportamiento depende del estado actual y no es simplemente un algoritmo intercambiable.}
     {Resuelve la gestión de transiciones de estado complejas, como las de una orden, que de otro modo requerirían una lógica condicional extensa y difícil de mantener para validar cada posible transición. Su funcionamiento se basa en una interfaz `Estado` y múltiples clases de estados concretos que la implementan. Un objeto `Contexto` mantiene una instancia del estado actual y delega a este objeto la ejecución de las acciones. Cada estado concreto implementa el comportamiento apropiado para ese estado y es responsable de la transición al siguiente.}
     {modelos/comportamiento/State.pdf}
@@ -79,7 +79,7 @@
 \newpage
 
 \Patron
-    {Strategy - Frontend}
+    {Estrategia - Frontend}
     {La intención de este patrón es definir una familia de algoritmos, encapsular cada uno de ellos y hacerlos intercambiables, permitiendo que el algoritmo varíe independientemente de los clientes que lo utilizan. En la aplicación, se usa para manejar los diferentes métodos de autenticación como estrategias intercambiables. Se eligió por ser la solución ideal para encapsular cada flujo de autenticación en su propia clase, lo que simplifica el código del cliente, ya que este solo elige y ejecuta la estrategia correcta sin conocer los detalles de su implementación.}
     {Este patrón resuelve el problema de manejar múltiples algoritmos para una misma operación, como la autenticación de usuarios, cada uno con un proceso diferente. Evita concentrar esta lógica variada y compleja en los componentes de la vista, lo que los haría masivos y fuertemente acoplados. Su funcionamiento se basa en una interfaz Estrategia común que declara un método de ejecución. Cada algoritmo se encapsula en una clase de Estrategia Concreta que implementa dicha interfaz. El cliente instancia la estrategia específica que necesita y la ejecuta, delegando así la lógica del algoritmo.}
     {modelos/comportamiento/Strategy.pdf}
@@ -90,7 +90,7 @@
 \newpage
 
 \Patron
-    {Strategy - Backend}
+    {Estrategia - Backend}
     {La intención del patrón Strategy es definir una familia de algoritmos, encapsular cada uno de ellos y hacerlos intercambiables, permitiendo que el algoritmo varíe independientemente de los clientes que lo utilizan. Se eligió por ser la solución ideal para algoritmos de filtrado intercambiables, donde otras alternativas como Chain of Responsibility serían excesivas para la necesidad planteada.}
     {Este patrón resuelve el problema de tener un método con una lógica condicional compleja y difícil de mantener para filtrar por múltiples criterios (categoría, artista y nombre). Su funcionamiento se basa en una interfaz `Estrategia` que define un método de filtrado común. Se crean clases de `Estrategia Concreta` para cada criterio de búsqueda. Un objeto `Contexto` se configura con las estrategias necesarias y delega la ejecución del filtrado a ellas, permitiendo combinar los algoritmos de forma dinámica.}
     {modelos/comportamiento/Strategy.pdf}
@@ -101,7 +101,7 @@
 \newpage
 
 \Patron
-    {Observer - Backend}
+    {Observador - Backend}
     {El propósito del patrón Observer es definir una dependencia de uno a muchos entre objetos, de manera que cuando un objeto (el sujeto) cambia de estado, todos sus dependientes (los observadores) son notificados y actualizados automáticamente. Se eligió este patrón porque permite que múltiples sistemas reaccionen a un evento de forma desacoplada y paralela, a diferencia de un patrón secuencial como Chain of Responsibility.}
     {Resuelve la necesidad de realizar múltiples acciones no relacionadas (como logging, métricas o notificaciones) como respuesta a un evento, como el cambio de estado de una orden, sin acoplar estas responsabilidades al servicio principal. Su funcionamiento se basa en un objeto `Sujeto` que mantiene una lista de sus `Observadores`. El sujeto proporciona métodos para que los observadores puedan suscribirse y darse de baja. Cuando ocurre un evento en el sujeto, este recorre su lista de observadores y llama a un método de notificación en cada uno de ellos.}
     {modelos/comportamiento/Observer.pdf}
@@ -112,7 +112,7 @@
 \newpage
 
 \Patron
-    {Template Method - Backend}
+    {Metodo Plantilla - Backend}
     {El propósito de este patrón es definir el esqueleto de un algoritmo en una operación, delegando la implementación de ciertos pasos a las subclases. Esto permite a las subclases redefinir partes específicas de un algoritmo sin cambiar su estructura general. Se justifica su uso por ser ideal para algoritmos con una estructura común pero con pasos que varían, utilizando la herencia para reutilizar el código común.}
     {Este patrón resuelve el problema del código duplicado en operaciones con una estructura similar pero detalles diferentes, como ocurre en los servicios CRUD para múltiples entidades. Su funcionamiento se basa en una clase base abstracta que define un "método plantilla" como `final`. Este método plantilla llama a una secuencia de métodos abstractos o "ganchos" (`hooks`) en un orden específico. Las subclases concretas heredan de la clase base y solo necesitan implementar los pasos abstractos, mientras que la estructura del algoritmo definida en el método plantilla permanece invariable.}
     {modelos/comportamiento/Template_Method.pdf}

@@ -26,7 +26,7 @@
 % \newpage
 
 \Patron
-    {Composite - Frontend}
+    {Componente - Frontend}
     {La intención de este patrón es componer objetos en estructuras de árbol para representar jerarquías de parte-todo, permitiendo que los clientes traten a los objetos individuales y a las composiciones de objetos de manera uniforme. Se eligió por su capacidad para modelar estructuras recursivas como un sistema de filtros complejos, simplificando radicalmente el código del cliente y facilitando la extensibilidad para añadir nuevos tipos de filtros sin alterar la estructura existente.}
     {Resuelve la necesidad de implementar un sistema de filtrado avanzado con lógicas anidadas (AND/OR/NOT), evitando el código condicional complejo y difícil de mantener. Su funcionamiento se basa en una interfaz común (Componente) que es implementada tanto por los objetos simples (Hojas) como por los contenedores (Compuestos). La clase Compuesto mantiene una colección de Componentes y delega la operación a sus hijos, permitiendo al cliente construir un árbol de reglas y ejecutarlo de forma transparente.}
     {modelos/estructurales/Composite.pdf}
@@ -37,7 +37,7 @@
 \newpage
 
 \Patron
-    {Decorator - Frontend}
+    {Decorador - Frontend}
     {La intención de este patrón es añadir responsabilidades adicionales a un objeto de forma dinámica, proporcionando una alternativa flexible a la herencia para extender la funcionalidad. En la aplicación, se utiliza para agregar los costos de las estampas al costo de una prenda base de manera incremental. Se eligió este patrón porque permite "apilar" funcionalidades o costos de forma dinámica; cada decorador es simple y solo añade una responsabilidad, lo que resulta en un diseño extremadamente flexible y extensible.}
     {Este patrón resuelve el problema de calcular el costo de un producto cuyo precio final depende de un número variable de adiciones definidas en tiempo de ejecución, evitando la "explosión de clases" que ocurriría al crear una subclase para cada combinación. Su funcionamiento se basa en una interfaz común para el objeto original y los decoradores. Cada decorador envuelve a otro objeto que comparte la misma interfaz, delega la llamada a su método principal al objeto envuelto y luego añade su propia lógica o costo al resultado, permitiendo construir una cadena de responsabilidades dinámicamente.}
     {modelos/estructurales/Decorator.pdf}
@@ -48,7 +48,7 @@
 \newpage
 
 \Patron
-    {Facade - Frontend}
+    {Fachada - Frontend}
     {La intención del patrón Facade es proveer una interfaz unificada y simplificada a un conjunto de interfaces de un subsistema más complejo. Su propósito es definir una interfaz de más alto nivel que facilite el uso del subsistema, desacoplando a los clientes de la complejidad interna de sus componentes. Se eligió este patrón porque su objetivo principal es la simplificación y el desacoplamiento, creando un punto de entrada único y sencillo a todo un subsistema, en este caso, para encapsular las interacciones con los servicios de Firebase.}
     {Este patrón resuelve la complejidad de interactuar con subsistemas como el SDK de Firebase, donde operaciones simples para el usuario requieren múltiples pasos de bajo nivel. Implementar esta lógica en cada componente sería repetitivo, propenso a errores y generaría un fuerte acoplamiento. Su funcionamiento se basa en una clase Fachada que encapsula dicha complejidad. Esta clase expone métodos simples que, internamente, realizan todas las interacciones necesarias con las diferentes partes del subsistema. De esta manera, las clases cliente solo dependen de la fachada, sin conocer los detalles de la implementación subyacente.}
     {modelos/estructurales/Facade.pdf}

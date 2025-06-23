@@ -41,7 +41,7 @@
 \newpage
 
 \Patron
-    {Factory Method - Backend}
+    {Metodo Fabrica - Backend}
     {La intención de este patrón es definir una interfaz para crear objetos, permitiendo que las subclases decidan qué clase concreta instanciar para delegar la creación. En el proyecto, se utiliza para centralizar la creación de respuestas HTTP estandarizadas y la de objetos `OrderItem`, asegurando que incluyan validaciones y cálculos automáticos. Se eligió este patrón por su simplicidad para centralizar la lógica de creación sin requerir la herencia compleja de alternativas como Abstract Factory.}
     {Este patrón resuelve la eliminación de código duplicado en los controladores al momento de crear respuestas HTTP, y previene la creación inconsistente de items de una orden que requerirían cálculos manuales de precios. Su funcionamiento se basa en clases `Factory` con métodos estáticos que encapsulan la lógica de instanciación. Los clientes, como los controladores REST y los servicios de negocio, invocan estos métodos fábrica en lugar de usar directamente los constructores de los productos, delegando así la responsabilidad de la creación.}
     {modelos/creacionales/Factory_Method.pdf}
@@ -52,7 +52,7 @@
 \newpage
 
 \Patron
-    {Builder - Frontend}
+    {Constructor - Frontend}
     {La intención del patrón Builder es separar la construcción de un objeto complejo de su representación final, permitiendo que el mismo proceso de construcción pueda crear diferentes configuraciones del objeto. En este caso, se utiliza para construir de forma controlada y paso a paso una camiseta personalizada. Se eligió este patrón por ser la solución ideal para la construcción progresiva, ya que evita el anti-patrón del constructor telescópico y guía al cliente a través de un proceso legible, al final del cual el método `build()` entrega un objeto completo y en un estado consistente.}
     {Este patrón resuelve la creación incremental de un objeto complejo, donde la información necesaria se recopila en diferentes momentos y un único constructor no es viable. Su funcionamiento se basa en una clase `Builder` que encapsula la construcción del producto. El cliente utiliza una instancia del `Builder`, invoca sus métodos para configurar el objeto paso a paso, y finalmente llama al método `build()` para obtener la instancia del producto final, completo y en un estado válido. Esto oculta la lógica de ensamblaje del objeto, que está contenida dentro del `Builder` y no dispersa en el cliente.}
     {modelos/creacionales/Builder.pdf}
@@ -63,7 +63,7 @@
 \newpage
 
 \Patron
-    {Builder - Backend}
+    {Constructor - Backend}
     {El propósito del patrón Builder es separar la construcción de un objeto complejo de su representación final, lo que permite que el mismo proceso de construcción pueda generar diferentes configuraciones del objeto. Facilita la creación paso a paso de objetos con múltiples atributos. Se eligió por ser ideal para objetos con muchos parámetros opcionales, como `CustomDesign`, donde múltiples constructores o un Factory Method serían insuficientes o inmanejables.}
     {Resuelve el problema de la creación de objetos complejos con múltiples parámetros opcionales y validaciones, evitando constructores con listas de argumentos muy largas y confusas. El funcionamiento se basa en una clase interna estática `Builder` que cuenta con una interfaz fluida. El cliente inicializa el `Builder` con los parámetros obligatorios, luego invoca métodos encadenados para establecer los atributos opcionales y, finalmente, llama al método `build()` para obtener el objeto del producto final, completo y consistente.}
     {modelos/creacionales/Builder.pdf}
