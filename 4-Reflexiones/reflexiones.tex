@@ -1,0 +1,43 @@
+\section{Reflexiones}
+
+El desarrollo del proyecto \textit{Innovate Wear} permitió la aplicación práctica de los principios de arquitectura empresarial y los patrones de diseño de software. A través de la implementación de un caso de negocio centrado en la personalización de prendas, se logró definir una estructura organizacional y tecnológica coherente y, a la vez, reflexionar sobre la importancia de alinear cada componente del sistema con los objetivos estratégicos de la organización.
+
+\subsection{Integración de Metodologías y Lenguajes de Modelado}
+
+La adopción de TOGAF con su Método de Desarrollo de Arquitectura (ADM) sirvió como marco de trabajo para guiar el proceso de forma estructurada. El ADM proporcionó un ciclo de vida iterativo que facilitó la evolución de la arquitectura, desde la visión inicial hasta la planificación de la migración. Este enfoque aseguró que las decisiones se mantuvieran alineadas con las necesidades del negocio.
+
+El uso de ArchiMate como lenguaje de modelado funcionó como complemento para TOGAF. Su capacidad para describir, analizar y visualizar los distintos dominios empresariales permitió una comunicación clara entre las partes interesadas. Las distintas capas de ArchiMate (motivación, estrategia, negocio, aplicación, tecnología, física, e implementación y migración) ofrecieron una representación integral de la arquitectura, facilitando la comprensión de las interrelaciones entre los diferentes componentes del sistema.
+
+\subsection{Alineación Estratégica y Creación de Valor}
+
+El análisis de la capa de motivación fue un punto de partida para identificar a los \textit{stakeholders} y sus objetivos. Este entendimiento de las motivaciones fue la base para definir los principios y requerimientos que guiaron el resto del diseño arquitectónico.
+
+La capa de estrategia sirvió como puente entre las aspiraciones de alto nivel y las capacidades operativas necesarias para alcanzarlas. El modelado de recursos, capacidades y flujos de valor permitió trazar un camino claro hacia la consecución de los objetivos de negocio, como la satisfacción del cliente a través de la personalización.
+
+\subsection{Implementación y Patrones de Diseño}
+
+La materialización de la arquitectura en las capas de aplicación y tecnología se benefició del uso de patrones de diseño de software. La selección de patrones creacionales, estructurales y de comportamiento respondió a problemas de diseño específicos identificados durante el desarrollo:
+
+\subsubsection*{Patrones Creacionales}
+
+\textbf{Singleton:} Garantizó la existencia de una única instancia para recursos compartidos, como el cliente HTTP en el \textit{frontend} y la fábrica de estados de órdenes en el \textit{backend}, centralizando la gestión y asegurando la consistencia.
+\textbf{Método Fábrica:} y \textbf{Fábrica Abstracta:} Desacoplaron la creación de objetos complejos (como tipos de usuarios y respuestas HTTP) del código cliente, promoviendo la extensibilidad.
+\textbf{Constructor:} Facilitó la construcción controlada y paso a paso de objetos complejos, como una camiseta personalizada, evitando constructores sobrecargados y mejorando la legibilidad del código.
+
+\subsubsection*{Patrones Estructurales}
+
+\textbf{Componente:} Permitió tratar objetos individuales y composiciones de objetos de manera uniforme, siendo una solución para modelar jerarquías como el sistema de filtros complejos.
+\textbf{Decorador:} Añadió responsabilidades adicionales a objetos de forma dinámica, una solución flexible para calcular costos incrementales en la personalización de productos.
+\textbf{Fachada:} Proporcionó una interfaz simplificada a un subsistema complejo como Firebase, desacoplando a los clientes de la complejidad interna.
+\textbf{Proxy:} Actuó como un intermediario para controlar el acceso, implementando de manera efectiva la autorización basada en roles.
+
+\subsubsection*{Patrones de Comportamiento}
+
+\textbf{Cadena de Responsabilidad:} Desacopló al emisor de una solicitud de su receptor, permitiendo la creación de validaciones modulares y secuenciales.
+\textbf{Comando:} Encapsuló acciones como objetos, separando la lógica de negocio de la interfaz de usuario y mejorando la cohesión del código.
+\textbf{Momento:} Permitió capturar y restaurar el estado de un objeto sin violar la encapsulación, siendo la base para la funcionalidad de deshacer/rehacer.
+\textbf{Estado:} Permitió que un objeto alterara su comportamiento según su estado interno, gestionando transiciones complejas de manera limpia y organizada.
+\textbf{Estrategia:} Definió una familia de algoritmos intercambiables, ideal para manejar diferentes métodos de autenticación o estrategias de filtrado.
+\textbf{Observador:} Facilitó la comunicación entre objetos de manera desacoplada, permitiendo que múltiples sistemas reaccionaran a un mismo evento.
+
+\noindent En conclusión, el proyecto \textit{Innovate Wear} no solo representa la arquitectura de un sistema de software, sino que también sirve como un caso de estudio sobre cómo las metodologías formales y los patrones de diseño pueden converger para crear soluciones robustas, escalables y alineadas con las metas del negocio. La documentación de cada capa y la justificación de cada patrón reflejan un entendimiento de los principios teóricos y su aplicación en un contexto práctico.

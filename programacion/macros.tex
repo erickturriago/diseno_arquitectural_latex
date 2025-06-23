@@ -1,3 +1,5 @@
+% Contenido para programacion/macros.tex
+
 \newcommand{\Capitulo}[2]{
 \chapter{#1}
 #2
@@ -54,5 +56,29 @@
 #5
 \end{minipage}
 \end{center}
+}
 
+\newcommand{\Patron}[9]{%
+    \section{#1}
+    \subsection{Realización}
+    #2
+    \subsection{Funcionamiento}
+    #3
+    \subsection{Estructura}
+    \subsubsection{Modelo}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=#7\linewidth]{#4}
+        \vspace{-10px}
+        \caption{Modelo del patrón #1.}
+    \end{figure}
+    \subsubsection{Aplicación}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=#8\linewidth]{#5}
+        \vspace{-10px}
+        \caption{Aplicación del patrón #1.}
+    \end{figure}
+    \subsection{Código}
+    \inputminted{#9}{#6} % #6 es el archivo fuente
 }
